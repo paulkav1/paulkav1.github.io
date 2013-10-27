@@ -15,7 +15,6 @@ function process_list(){
         markers[i] = {"pos":pos, "title":activities[i].title, "desc":activities[i].desc};
     };
     make_list();
-    //alert(JSON.stringify(activities[0], null, 4));
 };
 
 function make_list(){
@@ -24,7 +23,7 @@ function make_list(){
         list_html += '<li class="item">' + activities[i]["start_time"] + '-' + activities[i]["end_time"] + ': ' + activities[i]["title"] +'</li>';
     };
     list_html += "</ul>";
-    alert(list_html);
+    //alert(list_html);
     $('#item_list').html(list_html); 
 };
 
