@@ -24,7 +24,7 @@ function make_list(){
         list_html += '<li class="item">' + activities[i]["start_time"] + '-' + activities[i]["end_time"] + ': ' + activities[i]["title"] +'</li>';
     };
     list_html += "</ul>";
-    alert(list_html);
+    //alert(list_html);
     $('#item_list').html(list_html); 
 };
 

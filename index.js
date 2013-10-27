@@ -1,9 +1,11 @@
 var activities = [
     {place:"Brinkley", lat:52.2, lng:0.485, start_time:"1953", end_time:"1971", brand:null, title:"Early Years", type:"personal", desc:null, pic:null},
     {place:"London", lat:51.501, lng:-0.126, start_time:"1980", end_time:"1981", brand:"images/lse_logo.jpg", title:"Advertising", type:"career", desc:null, pic:null},
-    {place:"Madrid", lat:40.428, lng:-3.702, start_time:"1990", end_time:"1990", brand:"images/ibm_logo.jpg", title:"Training", type:"career", desc:null, pic:null},
+    {place:"Madrid", lat:40.428, lng:-3.702, start_time:"1990", end_time:"1990", brand:"images/ibm_logo.jpg", title:"Unix Training", type:"career", desc:null, pic:null},
     {place:"Paris", lat:48.860, lng:2.350, start_time:"1998", end_time:"1998", brand:null, title:"Fun", type:"personal", desc:null, pic:null},
-    {place:"NYC", lat:40.714, lng:-73.961, start_time:"1981", end_time:"1984", brand:null, title:"Board of Education", type:"career", desc:null, pic:null}    
+    {place:"NYC", lat:40.714, lng:-73.961, start_time:"1981", end_time:"1984", brand:null, title:"Board of Education", type:"career", desc:null, pic:null},    
+    {place:"San Francisco", lat:37.783, lng:-122.417, start_time:"1983", end_time:"2011", brand:null, title:"Conferences", type:"career", desc:null, pic:null},    
+    {place:"Mexico City", lat:19.433, lng:-99.133, start_time:"1991", end_time:"1991", brand:"images/ibm_logo.jpg", title:"AIX Training", type:"career", desc:null, pic:null} 
 ];
 var markers = [];
 
@@ -24,7 +26,7 @@ function make_list(){
         list_html += '<li class="item">' + activities[i]["start_time"] + '-' + activities[i]["end_time"] + ': ' + activities[i]["title"] +'</li>';
     };
     list_html += "</ul>";
-    alert(list_html);
+    //alert(list_html);
     $('#item_list').html(list_html); 
 };
 

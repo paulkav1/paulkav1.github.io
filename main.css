@@ -52,7 +52,7 @@ li{
     top:40px;
     min-width:220px;
 }
-.logo{
+.header{
     font-size:24px;
     font-style:bold;
     margin:9px;
@@ -62,7 +62,14 @@ li{
     height:70px;
     width:200px;
 }
-#map-canvas {
+.logo{
+    height:120px;
+    margin:12px;
+}
+.li_logo{
+    display: inline;
+}
+#map-canvas, #logo-canvas{
     float:right;
     top:7px;
     height: 90%; 
