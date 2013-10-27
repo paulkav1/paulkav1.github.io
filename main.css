@@ -66,6 +66,10 @@ li{
     height:120px;
     margin:12px;
 }
+.timeline{
+    width:960px;
+    margin:10px;
+}
 .li_logo{
     display: inline;
 }
