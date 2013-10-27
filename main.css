@@ -70,19 +70,6 @@ li{
     margin:5px 25px;
     min-width:800px;
 }
-#query{
-    font-size:16px;
-    height: 24px;
-    width: 200px;
-    margin: 8px;
-}
-#submit{
-    font-size:16px;
-    height: 24px;
-    width: 65px;
-    border-radius:3px;
-    margin: 8px;
-}
 #item_list{
     height:auto;
     width:200px;
