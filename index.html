@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<title>Mapper</title>
+  <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css"> 
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>  
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDorbnRyA8h0IHV5i15c5_MzmSBqCmTYdw&sensor=false"></script>
+  <script src="main.js" type="text/javascript"></script>
+</head>
+<body>
+  <div class="logo">College Search</div>
+	<div class="navbar">
+    <ul>
+      <li><a href="http://paulkav1.github.io/quiz/">Quiz</a></li>        
+      <li><a href="http://paulkav1.github.io/cart/">Shopping List</a></li>  
+      <li><a href="http://paulkav1.github.io/huckle/">Hot or Cold</a></li>           
+      <li><a href="http://nooru.herokuapp.com/gooru/">Search</a></li>             
+      <li><a href="http://www.noodle.org">Noodle</a></li>  
+      <li><a href="http://mapm.adelaide.edu.au/index.php">Colloquy</a></li> 
+    </ul>           
+	</div>    
+  <div class="page">      
+    <form id="f" action="f" onsubmit="return onSubmit()">    
+      <input type="text" name="query" id="query" placeholder="Start a search">
+      <input type="submit" id="submit" value="Search" name="submit">     
+    </form>
+    <div id="item_list">
+    </div>
+  </div>
+  <div id="map-canvas">
+  </div>
+</body>
+</html>

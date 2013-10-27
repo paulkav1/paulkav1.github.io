@@ -1,0 +1,92 @@
+html {
+    height: 100%;
+}
+body { 
+    height: 100%; 
+    margin: 0; 
+    padding: 0;
+    min-width:900px;
+}
+li{
+    font-size:14px;
+    font-family:arial, sans-serif;
+    color:#3333AA;
+    margin-top:9px;
+}
+.navbar{
+	background-color: white;
+	float: right;
+	margin-top: 10px;
+    padding-bottom:60px;
+    whitespace:nowrap;
+}
+.navbar ul li{
+	display: inline;
+	color: #30669c;
+}
+.navbar ul li a:hover{
+	color: #18AFE0;
+}
+.navbar a{
+	text-decoration:none;	
+	font-family:sans-serif;
+	color:#222222;
+	padding:25px 5px 10px 8px;
+	font-size:16px;
+	vertical-align:center;
+	align:right;
+	margin:10px;
+}
+.navbar a:hover{
+	color:red;
+}
+.page{
+    text-align: left;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    min-width:900px;
+    background-color:white;
+    position:absolute;
+    top:40px;
+    min-width:220px;
+}
+.logo{
+    font-size:24px;
+    font-style:bold;
+    margin:9px;
+    font-family:arial, sans-serif;
+    color:#FE2266;
+    float: left;
+    height:70px;
+    width:200px;
+}
+#map-canvas {
+    float:right;
+    top:7px;
+    height: 90%; 
+    width:78%;
+    margin:5px 25px;
+    min-width:800px;
+}
+#query{
+    font-size:16px;
+    height: 24px;
+    width: 200px;
+    margin: 8px;
+}
+#submit{
+    font-size:16px;
+    height: 24px;
+    width: 65px;
+    border-radius:3px;
+    margin: 8px;
+}
+#item_list{
+    height:auto;
+    width:200px;
+    background-color:#DDDDDD;
+    margin:12px;
+    padding:4px;
+}
