@@ -17,7 +17,6 @@ var activities = [
     {place:"Crete", lat:35.21, lng:24.91, start_time:"2007", end_time:"2007", brand:null, title:"Moodle conference", type:"personal", desc:null, pic:null},
     {place:"Barbados", lat:13.167, lng:-59.55, start_time:"2010", end_time:"2010", brand:"images/kaplan_logo.jpg", title:"Cruise line", type:"career", desc:null, pic:null}, 
     {place:"Vancouver", lat:49.25, lng:-123.10, start_time:"2007", end_time:"2007", brand:null, title:"Health consulting", type:"personal", desc:null, pic:null}
-
 ];
 var markers = [];
 

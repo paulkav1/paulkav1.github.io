@@ -40,6 +40,19 @@ li{
 .navbar a:hover{
 	color:red;
 }
+#app_nav{
+    background-color:#EEEEEE;
+}
+#app_nav a{
+    text-decoration:none;   
+    font-family:sans-serif;
+    color:#222244;
+    font-size:24px;
+    margin:10px 40px;    
+}
+#app_nav a:hover{
+    color:red;
+}
 .page{
     text-align: left;
     float:left;
