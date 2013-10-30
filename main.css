@@ -41,14 +41,22 @@ li{
 	color:red;
 }
 #app_nav{
-    background-color:#EEEEEE;
+    whitespace:nowrap;
+}
+#app_nav li{
+    margin:50px 30px;  
+    width:200px; 
 }
 #app_nav a{
+    background-color:#EEEEEE;
     text-decoration:none;   
     font-family:sans-serif;
-    color:#222244;
+    font-style:bold;
+    color:#444488;
     font-size:24px;
-    margin:10px 40px;    
+    padding:5px;
+    border-radius:5px;
+    border:2px solid grey;
 }
 #app_nav a:hover{
     color:red;
@@ -86,7 +94,7 @@ li{
 .li_logo{
     display: inline;
 }
-#map-canvas, #logo-canvas{
+#map-canvas, #logo-canvas, #canvas{
     float:right;
     top:7px;
     height: 90%; 
@@ -94,10 +102,27 @@ li{
     margin:5px 25px;
     min-width:800px;
 }
+#canvas h1{
+    color:dark-grey;
+    font-style:bold;
+    font-family:arial;
+    font-size:24pt;
+}
+#canvas p{
+    color:dark-grey;
+    font-family:arial;
+    font-size:12pt;
+}
 #item_list{
     height:auto;
     width:200px;
     background-color:#DDDDDD;
     margin:12px;
     padding:4px;
+}
+#blue_line{
+    top:400px;
+    vertical-align:center;
+    margin:20px;
+    length:900px;
 }
