@@ -94,7 +94,7 @@ li{
 .li_logo{
     display: inline;
 }
-#map-canvas, #logo-canvas, #canvas{
+#map-canvas, #logo-canvas{
     float:right;
     top:7px;
     height: 90%; 
@@ -102,20 +102,34 @@ li{
     margin:5px 25px;
     min-width:800px;
 }
+#canvas{
+    float:right;
+    height: 90%; 
+    width:750px;
+    margin:10px 20px;
+    min-width:500px;
+}
 #canvas h1{
-    color:dark-grey;
+    color:#2222AA;
     font-style:bold;
     font-family:arial;
-    font-size:24pt;
+    font-size:20pt;
+    margin:20px 2px 10px 2px;
+}
+#canvas h2{
+    color:grey;
+    font-style:bold;
+    font-family:arial;
+    font-size:16pt;
 }
 #canvas p{
-    color:dark-grey;
-    font-family:arial;
-    font-size:12pt;
+    color:#2222BB;
+    font-family:georgia, times;
+    font-size:13pt;
 }
 #item_list{
     height:auto;
-    width:200px;
+    width:180px;
     background-color:#DDDDDD;
     margin:12px;
     padding:4px;
