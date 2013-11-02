@@ -13,6 +13,20 @@ li{
     color:#3333AA;
     margin-top:9px;
 }
+.text_panel{
+    float:left;
+    width:22%;
+    height:30%;
+    margin:5px;
+    border: 1px solid gray;
+    padding:2px;
+}
+.pic_panel{
+    float:left;
+    width:22%;
+    height:30%;
+    margin:5px;
+}
 .navbar{
 	background-color: white;
 	float: right;
@@ -40,12 +54,24 @@ li{
 .navbar a:hover{
 	color:red;
 }
+.fun{
+    height:160px;  
+}
+.caption{
+    position:relative;
+    bottom:-10px;
+    left:10px;
+    visibility:hidden;
+}
 #app_nav{
     whitespace:nowrap;
+    padding:10px;
+    margin:10px;
 }
 #app_nav li{
-    margin:50px 30px;  
-    width:200px; 
+    margin:20px 50px;  
+    width:100%;
+    display:inline;
 }
 #app_nav a{
     background-color:#EEEEEE;
@@ -71,7 +97,6 @@ li{
     background-color:white;
     position:absolute;
     top:40px;
-    min-width:220px;
 }
 .header{
     font-size:24px;
@@ -95,19 +120,19 @@ li{
     display: inline;
 }
 #map-canvas, #logo-canvas{
-    float:right;
-    top:7px;
+    float:left;
+    top:10px;
     height: 90%; 
-    width:78%;
-    margin:5px 25px;
+    width:90%;
+    margin:10px 20px;
     min-width:800px;
 }
 #canvas{
-    float:right;
+    float:left;
     height: 90%; 
-    width:750px;
+    width:90%;
     margin:10px 20px;
-    min-width:500px;
+    min-width:400px;
 }
 #canvas h1{
     color:#2222AA;
@@ -127,16 +152,8 @@ li{
     font-family:georgia, times;
     font-size:13pt;
 }
-#item_list{
-    height:auto;
-    width:180px;
-    background-color:#DDDDDD;
-    margin:12px;
-    padding:4px;
-}
-#blue_line{
+#time_line{
     top:400px;
-    vertical-align:center;
-    margin:20px;
-    length:900px;
+    margin:10px;
+    length:800px;
 }
