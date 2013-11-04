@@ -15,17 +15,18 @@ li{
 }
 .text_panel{
     float:left;
-    width:22%;
-    height:30%;
-    margin:5px;
+    width:20%;
+    height:25%;
+    margin:4px;
     border: 1px solid gray;
     padding:2px;
+    border-radius:2px;
 }
 .pic_panel{
     float:left;
-    width:22%;
-    height:30%;
-    margin:5px;
+    width:20%;
+    height:25%;
+    margin:4px;
 }
 .navbar{
 	background-color: white;
@@ -55,12 +56,12 @@ li{
 	color:red;
 }
 .fun{
-    height:160px;  
+    height:120px;  
 }
 .caption{
     position:relative;
-    bottom:-10px;
-    left:10px;
+    bottom:-8px;
+    left:4px;
     visibility:hidden;
 }
 #app_nav{
@@ -69,19 +70,19 @@ li{
     margin:10px;
 }
 #app_nav li{
-    margin:20px 50px;  
+    margin:20px 75px;  
     width:100%;
     display:inline;
 }
 #app_nav a{
-    background-color:#EEEEEE;
+    background-color:#DDCCDD;
     text-decoration:none;   
     font-family:sans-serif;
     font-style:bold;
     color:#444488;
     font-size:24px;
-    padding:5px;
-    border-radius:5px;
+    padding:10px;
+    border-radius:3px;
     border:2px solid grey;
 }
 #app_nav a:hover{
@@ -138,19 +139,19 @@ li{
     color:#2222AA;
     font-style:bold;
     font-family:arial;
-    font-size:20pt;
-    margin:20px 2px 10px 2px;
+    font-size:18pt;
+    margin:2px 2px 6px 2px;
 }
 #canvas h2{
     color:grey;
     font-style:bold;
     font-family:arial;
-    font-size:16pt;
+    font-size:14pt;
 }
 #canvas p{
     color:#2222BB;
     font-family:georgia, times;
-    font-size:13pt;
+    font-size:11pt;
 }
 #time_line{
     top:400px;
