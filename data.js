@@ -62,7 +62,7 @@ b7:'<p>CTO for this Kaplan startup, offering online admissions and education ser
       'Created new team and systems running on Amazon AWS in Europe, Asia/Pacific and the US. Won a company innovation award for use of open source and cloud computing and served on the CIO Council. Amazon, Moodle, Salesforce.com, and Alfresco became corporate global standards.</p>',
 b8:'<p><Installed Colloquy online software in support of Kaplan colleges in Hong Kong and Singapore/p>',
 c1:'<p>Worked with in-house offshore software development center in New Delhi</p>',
-c2:'<p>In Chicago, managed a profitable team supporting software development, architecture, and infrastructure engagements for major accounts including United Airlines, Kraft Foods and McDonald’s.</p>'},
+c2:'<p>In Chicago, managed a profitable team supporting software development, architecture, and infrastructure engagements for major accounts including United Airlines, Kraft Foods and McDonald’s.</p>',
 c3:'<p>Lima, Cuzco, and Macchu Pichu</p>',
 c4:'<p>visiting mosques, palaces, and the Grand Bazaar in Istanbul. Shopping in Rhodes, on a mule in Santorini, etc.</p>',
 c5:'<p>Cruise ship stops in Tunis, Majorca, Marseilles, Naples, and Palermo</p>',
