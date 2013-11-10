@@ -16,7 +16,7 @@ function build_markers(){
     var j = 0;
     for (var i = 0; i < activities2.length; i++){
         if (!isNaN(activities2[i].lat) && !isNaN(activities2[i].lng)){
-            var desc = descriptions2[activities2[i]["d"]];
+            var desc = descriptions2[activities2[i]["id"]];
             alert(desc);
             markers[j] = {"pos":new google.maps.LatLng(activities2[i].lat, activities2[i].lng), "title":activities2[i].title, "desc":desc};
             j++;
