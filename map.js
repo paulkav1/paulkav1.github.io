@@ -1,24 +1,19 @@
-var activities2 = [];
-var descriptions2 = [];
 var markers = [];
 
 $.getScript("http://paulkav1.github.io/data.js", function(){
-    activities2 = activities;
-    descriptions2 = descriptions;
-    alert(JSON.stringify(descriptions2));    
+    for (var i = 0; i < activities.length; i++){
+        activities[i].desc = descriptions[activities[i].id]
+    }  
     build_markers();
     google.maps.event.addDomListener(window, 'load', init_map);     
 });
 
 function build_markers(){
     markers = [];
-    alert(JSON.stringify(descriptions2));
     var j = 0;
-    for (var i = 0; i < activities2.length; i++){
-        if (!isNaN(activities2[i].lat) && !isNaN(activities2[i].lng)){
-            var desc = descriptions2[activities2[i]["id"]];
-            alert(desc);
-            markers[j] = {"pos":new google.maps.LatLng(activities2[i].lat, activities2[i].lng), "title":activities2[i].title, "desc":desc};
+    for (var i = 0; i < activities.length; i++){
+        if (!isNaN(activities[i].lat) && !isNaN(activities[i].lng)){
+            markers[j] = {"pos":new google.maps.LatLng(activities[i].lat, activities[i].lng), "title":activities[i].title, "desc":activities[i].desc};
             j++;
         }
     };

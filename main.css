@@ -156,5 +156,20 @@ li{
 #time_line{
     top:400px;
     margin:10px;
-    length:800px;
+    length:900px;
+}
+#item_list{
+    float:left;
+    width:400px;
+}
+#item_detail{
+    font-size:16pt;
+    font-color:red;
+    position:absolute;
+    left:500px;
+    top:400px;
+    width:350px;
+    border:solid black 2px;
+    height:auto;
+    background-color:yellow;
 }
