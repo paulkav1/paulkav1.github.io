@@ -1,3 +1,4 @@
+
 $.getScript("http://paulkav1.github.io/data.js", function(){
     for (var i = 0; i < activities.length; i++){
         activities[i].desc = descriptions[activities[i].id]
@@ -10,9 +11,7 @@ $.getScript("http://paulkav1.github.io/data.js", function(){
       $('#item_detail').css("visibility","visible");           
     });
 
-    $('.li_logo').mouseout(function() {     
-        var id = event.target.id;
-        $('#item_detail').html(descriptions[id]);        
+    $('.li_logo').mouseout(function() {       
         $('#item_detail').css("visibility","hidden");
     });     
 });
