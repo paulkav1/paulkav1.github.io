@@ -6,7 +6,6 @@ $(document).ready(function(){
             activities[i].desc = descriptions[activities[i].id]
         }  
         build_markers();
-        alert(JSON.stringify(markers));
         google.maps.event.addDomListener(window, 'load', init_map);     
     });
 });
@@ -27,6 +26,7 @@ function init_map() {
     var mapOptions = {center: new google.maps.LatLng(38.0, -95.0), zoom: 5, mapTypeId: google.maps.MapTypeId.ROADMAP};
     var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
     set_map_markers(map);
+    alert(JSON.stringify(markers));    
     map.fitBounds(get_map_bounds());
 };
 
