@@ -110,8 +110,8 @@ li{
     width:200px;
 }
 .logo{
-    height:120px;
-    margin:12px;
+    height:80px;
+    margin:25px;
 }
 .timeline{
     width:960px;
@@ -154,8 +154,8 @@ li{
     font-size:11pt;
 }
 #time_line{
-    top:400px;
-    margin:10px;
+    top:10px;
+    margin:5px;
     length:900px;
 }
 #item_list{
