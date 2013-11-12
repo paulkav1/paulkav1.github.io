@@ -1,19 +1,20 @@
+$(document).ready(function(){
+  $.getScript("http://paulkav1.github.io/data.js", function(){
+      for (var i = 0; i < activities.length; i++){
+          activities[i].desc = descriptions[activities[i].id]
+      }
+      make_timeline();
 
-$.getScript("http://paulkav1.github.io/data.js", function(){
-    for (var i = 0; i < activities.length; i++){
-        activities[i].desc = descriptions[activities[i].id]
-    }
-    make_timeline();
+      $('.happening').mouseover(function() {
+        var id = event.target.id;
+        $('#item_detail').html(descriptions[id]);
+        $('#item_detail').css("visibility","visible");           
+      });
 
-    $('.happening').mouseover(function() {
-      var id = event.target.id;
-      $('#item_detail').html(descriptions[id]);
-      $('#item_detail').css("visibility","visible");           
-    });
-
-    $('.happening').mouseout(function() {         
-        $('#item_detail').css("visibility","hidden");
-    });     
+      $('.happening').mouseout(function() {         
+          $('#item_detail').css("visibility","hidden");
+      });     
+  });
 });
 
 function make_timeline(){
@@ -24,13 +25,20 @@ function make_timeline(){
       p1 = map_log(item["start_time"]);
       p2 = map_log(item["end_time"]);      
       ht_str += '<div class="happening" id="' + item["id"] + '">' + item["id"] + ':' + p1 + ',' + p2 + ' ==> ' + item["title"] + '</div>';
-      css_item = {left:p1, right:p2};
+      css_item = {id:item["id"], left:p1, right:p2};
       css_items.push(css_item);
   };
   $('#canvas').html(ht_str);
-  for (item in css_items){
-      $(item).css('left', item.left);
-      $(item).css('length', item.right - item.left);
+
+  for (var i = 0; i < css_items.length; i++){
+      line = "'#" + css_items[i].id + "'";
+      $('#a1').css("background-color", "yellow");
+      $('#a1').css('left', item.left);
+      var x = item.right - item.left;
+      alert(x);
+      $('#a1').width(x);      
+      //$(line).css('left', item.left);
+      //$(line).css('length', item.right - item.left);
   }
 }
 
