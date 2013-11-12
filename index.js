@@ -32,11 +32,10 @@ function make_timeline(){
 
   for (var i = 0; i < css_items.length; i++){
       line = "'#" + css_items[i].id + "'";
-      $('#a1').css("background-color", "yellow");
-      $('#a1').css('left', item.left);
+      $('#e6').css("background-color", "yellow");
+      $('#e6').css('left', "'" + item.left + "px'");
       var x = item.right - item.left;
-      alert(x);
-      $('#a1').width(x);      
+      $('#e6').width(x);      
       //$(line).css('left', item.left);
       //$(line).css('length', item.right - item.left);
   }
