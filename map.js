@@ -1,11 +1,13 @@
 var markers = [];
 
-$.getScript("http://paulkav1.github.io/data.js", function(){
-    for (var i = 0; i < activities.length; i++){
-        activities[i].desc = descriptions[activities[i].id]
-    }  
-    build_markers();
-    google.maps.event.addDomListener(window, 'load', init_map);     
+$(document).ready(function(){
+    $.getScript("http://paulkav1.github.io/data.js", function(){
+        for (var i = 0; i < activities.length; i++){
+            activities[i].desc = descriptions[activities[i].id]
+        }  
+        build_markers();
+        google.maps.event.addDomListener(window, 'load', init_map);     
+    });
 });
 
 function build_markers(){
