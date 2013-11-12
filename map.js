@@ -6,6 +6,7 @@ $(document).ready(function(){
             activities[i].desc = descriptions[activities[i].id]
         }  
         build_markers();
+        alert(JSON.stringify(markers));
         google.maps.event.addDomListener(window, 'load', init_map);     
     });
 });
