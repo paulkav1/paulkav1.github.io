@@ -5,14 +5,14 @@ $.getScript("http://paulkav1.github.io/data.js", function(){
     }
     make_list();
 
-    $('.li_logo').mouseover(function() {
+    $('.logo').mouseover(function() {
       var id = event.target.id;
       $('#item_detail').html(descriptions[id]);
       $('#item_detail').css("visibility","visible");           
     });
 
-    $('.li_logo').mouseout(function() {       
-        $('#item_detail').css("visibility","hidden");
+    $('.logo').mouseout(function() {       
+        //$('#item_detail').css("visibility","hidden");
     });     
 });
 
