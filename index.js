@@ -26,7 +26,7 @@ function make_timeline(){
       p2 = map_log(item["end_time"]); 
       w = Math.max((p2 - p1), 35); 
       t = 150 + (16 * i);    
-      ht_str += '<div style="font-size:9px; font-style:times; position:fixed; background-color:maroon; color:white; left:' + p1 + 'px; width:' + w + 'px; top:' + t + 'px" class="happening" id="' + item["id"] + '">' + item["title"] + '</div>';
+      ht_str += '<div style="font-size:10px; font-style:times; position:fixed; background-color:maroon; color:white; left:' + p1 + 'px; width:' + w + 'px; top:' + t + 'px" class="happening" id="' + item["id"] + '">' + item["title"] + '</div>';
   };
   $('#canvas').html(ht_str);
 }
