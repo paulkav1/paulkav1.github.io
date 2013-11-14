@@ -9,11 +9,7 @@ $(document).ready(function(){
         var id = event.target.id;
         $('#item_detail').html(descriptions[id]);
         $('#item_detail').css("visibility","visible");           
-      });
-
-      $('.happening').mouseout(function() {         
-          //$('#item_detail').css("visibility","hidden");
-      });     
+      }); 
   });
 });
 
@@ -23,7 +19,7 @@ function make_timeline(){
   for (var i = 0; i < activities.length; i++){
       item = activities[i];
       dim = plot_data(item["start_time"], item["end_time"], i);
-      ht_str += '<div style="font-size:12px; font-family:times; padding:1px; position:fixed; background-color:maroon; color:white; left:' + dim.l 
+      ht_str += '<div style="font-size:12px; border:1px solid grey; font-family:times; padding:1px; position:fixed; background-color:ivory; color:black; border-radius:3px; left:' + dim.l 
         + 'px; width:' + dim.w + 'px; top:' + dim.t + 'px" class="happening" id="' + item["id"] + '">' + item["title"] + '</div>';
   };
   $('#canvas').html(ht_str);
@@ -36,14 +32,14 @@ function plot_data(start, end, order){
   noise = (Math.random() * 20) - 10;
   var dim = {};
   if (e2 - e1 < 50){
-    dim.w = 50; 
-    dim.l = e1 - 50;
+    dim.w = 60; 
+    dim.l = e1 - 60;
   } else {
     dim.w = e2 - e1;
     dim.l = e1;
   }
   dim.l += noise;
-  dim.t = 150 + (16 * order);
+  dim.t = 180 + (40 * (order % 12));
  
   return dim;
 }

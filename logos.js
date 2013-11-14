@@ -3,7 +3,7 @@ $(document).ready(function(){
         for (var i = 0; i < activities.length; i++){
             activities[i].desc = descriptions[activities[i].id]
         }
-        make_list();
+        //make_list();
 
         $('.logo').mouseover(function() {
           var id = event.target.id;

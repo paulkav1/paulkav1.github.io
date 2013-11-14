@@ -110,8 +110,8 @@ li{
     width:200px;
 }
 .logo{
-    height:80px;
-    margin:25px;
+    height:60px;
+    margin:12px;
 }
 .timeline{
     width:960px;
@@ -127,6 +127,13 @@ li{
     width:90%;
     margin:10px 20px;
     min-width:800px;
+}
+#logo-canvas{
+    float:left;
+    top:10px;
+    height: 90%; 
+    width:70%;
+    margin:10px;   
 }
 #canvas{
     float:left;
@@ -154,22 +161,23 @@ li{
     font-size:11pt;
 }
 #time_line{
-    top:10px;
+    top:5px;
     margin:5px;
-    length:900px;
+    length:850px;
 }
 #item_list{
     float:left;
     width:400px;
 }
 #item_detail{
-    font-size:16pt;
-    font-color:red;
+    font-size:15pt;
+    font-color:black;
     position:absolute;
-    left:600px;
-    top:200px;
-    width:350px;
-    border:solid black 2px;
+    left:750px;
+    top:380px;
+    width:250px;
+    border:solid grey 1px;
     height:auto;
-    background-color:yellow;
+    border-radius:3px;
+    background-color:ivory;
 }
