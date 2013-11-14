@@ -170,6 +170,7 @@ li{
     width:400px;
 }
 #item_detail{
+    visibility:hidden;
     font-size:15pt;
     font-color:black;
     position:absolute;

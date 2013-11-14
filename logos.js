@@ -16,15 +16,3 @@ $(document).ready(function(){
         });     
     });
 });
-
-function make_list(){
-    var list_html = "<ul>";
-    for (var i = 0; i < activities.length; i++){
-        list_html += '<li class="item">' + activities[i]["start_time"] + '-' + activities[i]["end_time"] + ': ' + activities[i]["title"] + activities[i].desc +'</li>';
-    };
-    for (item in descriptions){
-        list_html += '<li class="item">' + item + ':' + descriptions[item] + '</li>';
-    };    
-    list_html += "</ul>";
-    $('#item_list').html(list_html); 
-};
