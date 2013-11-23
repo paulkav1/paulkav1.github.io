@@ -36,6 +36,10 @@ li{
 #app_nav a:hover{
     color:red;
 }
+.pic{
+    height:50px;
+    padding:2px;
+}
 .page{
     text-align:left;
     float:left;

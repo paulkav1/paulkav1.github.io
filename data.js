@@ -46,7 +46,7 @@ a2:'<p>First job at Benton & Bowles (now Publicis), London advertising agency fo
 a3:'<p>Trained IBM systems engineers in Unix administration and networking</p>',
 a5:'<p>Analyst/programmer using IBM mainframe (MVS, CICS) for payroll and HR programs for the NYC Department of Education</p>',
 a6:'<p>Partnered with University on online business masters programs</p>',
-a8:'<p><img class="pic" src="/images/rs6000.jpg">AIX training for IBM engineers in Mexico City</p>',
+a8:'<p><img class="pic" src="images/rs6000.jpg">AIX training for IBM engineers in Mexico City</p>',
 a9:'<p>Consulting for Microsoft on mobile (tablet) support at HealthSouth subsidiary in Vancouver</p>',
 b1:'<p>Trained IBM engineers in AIX administration, networking, internals, etc. at Las Colinas training center and various partner locations</p>',
 b2:'<p>Ran the KU student team of twenty US developers plus similar-sized groups of outsourced resources in India and Mexico. Managed admissions, academic advising, and financial aid systems, and launched a lead generation entity which is now part of Education Dynamics.</p>' +
