@@ -46,7 +46,7 @@ a2:'<p>First job at Benton & Bowles (now Publicis), London advertising agency fo
 a3:'<p>Trained IBM systems engineers in Unix administration and networking</p>',
 a5:'<p>Analyst/programmer using IBM mainframe (MVS, CICS) for payroll and HR programs for the NYC Department of Education</p>',
 a6:'<p>Partnered with University on online business masters programs</p>',
-a8:'<p>AIX training for IBM engineers in Mexico City</p>',
+a8:'<p><img class="pic" src="/images/rs6000.jpg">AIX training for IBM engineers in Mexico City</p>',
 a9:'<p>Consulting for Microsoft on mobile (tablet) support at HealthSouth subsidiary in Vancouver</p>',
 b1:'<p>Trained IBM engineers in AIX administration, networking, internals, etc. at Las Colinas training center and various partner locations</p>',
 b2:'<p>Ran the KU student team of twenty US developers plus similar-sized groups of outsourced resources in India and Mexico. Managed admissions, academic advising, and financial aid systems, and launched a lead generation entity which is now part of Education Dynamics.</p>' +
@@ -58,7 +58,7 @@ b6:'<p>Application Development Customer Unit for Southeast sold through MSDN eve
 b7:'<p>CTO for this Kaplan startup, offering online admissions and education services in support of partner universities and Kaplan colleges in Asia/Pacific. Clients include George Washington University, UT Austin, University College Dublin, and the<a href="http://mapm.adelaide.edu.au/index.php">University of Adelaide</a>.' +
       '<p>Created new team and systems running on Amazon AWS in Europe, Asia/Pacific and the US. Won a company innovation award for use of open source and cloud computing and served on the CIO Council. Amazon, Moodle, Salesforce.com, and Alfresco became corporate global standards.</p>',
 b8:'<p>Installed customized version of Colloquy online education software in support of Kaplan college in Hong Kong</p>',
-b9:'<p>Installed Colloquy online education software in support of Kaplan college in Singapore/p>',
+b9:'<p>Installed Colloquy online education software in support of Kaplan college in Singapore</p>',
 c1:'<p>Worked with Kaplan in-house offshore software development center on various projects in New Delhi</p>',
 c2:'<p>In Chicago, managed a profitable team supporting software development, architecture, and infrastructure engagements for major accounts including United Airlines, Kraft Foods and McDonald’s.</p>',
 c3:'<p>Lima, Cuzco, and Macchu Pichu with the family: llamas and ruins</p>',
@@ -81,10 +81,10 @@ d7:'<p>For AGS (now NTT Data), ran a division consulting on strategy, algorithms
 d8:'<p>Led AGS teams developing software for NYC area organizations including foreign exchange trading for BoA/Merrill Lynch, price reporting for CME Group, international funds transfer for JP Morgan Chase, computer leasing for IBM, ATM’s for RBS NatWest, and teacher/student management for the NYC Department of Education.</p>',
 d9:'<p>For British Aerospace, developed systems on IBM mainframes to control production of combat (Tornado, Harrier) and civilian (Concorde, Airbus) aircraft. </p>',
 e1:'<p>B.Sc. Information Systems & Management, University of London (LSE)</p>',
-e2:'Open Source Software published by Digital Press',
-e3:'Downsizing to Client/Server published by Academic Press',
-e4:'AIX Management & Performance Tuning published by SRA',
-e5:'VS COBOL II for COBOL Programmers published by McGraw-Hill',
+e2:'<p>Open Source Software published by Digital Press</p>',
+e3:'<p>Downsizing to Client/Server published by Academic Press</p>',
+e4:'<p>AIX Management & Performance Tuning published by SRA</p>',
+e5:'<p>VS COBOL II for COBOL Programmers published by McGraw-Hill</p>',
 e6:'<p>B.Sc. Mathematics, University of Nottingham</p> ',
 e7:'<p>Continuing education class for De Paul University: Managing enterprise software development</p>'
 }
