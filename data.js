@@ -29,7 +29,7 @@ var activities = [
     {title:"Colloquy", place:"Delray Beach", lat:26.459, lng:-80.083, start_time:"2010", end_time:"2012", brand:"images/kaplan_logo.jpg", type:"career", id:"b7"}, 
     {title:"Online college", place:"Hong Kong", lat:22.278, lng:114.159, start_time:"2010", end_time:"2010", brand:"images/kaplan_logo.jpg", type:"career", id:"b8"},   
     {title:"Online college", place:"Singapore", lat:1.300, lng:103.80, start_time:"2011", end_time:"2011", brand:"images/kaplan_logo.jpg", type:"career", id:"b9"},    
-    {title:"Diving", place:"Brisbane", lat:-27.468, lng:153.028, start_time:"2010", end_time:"2010", brand:"images/scuba.jpg"l, type:"personal", id:"d3"},   
+    {title:"Diving", place:"Brisbane", lat:-27.468, lng:153.028, start_time:"2010", end_time:"2010", brand:"images/scuba.jpg", type:"personal", id:"d3"},   
     {title:"Kaplan online", place:"Sydney", lat:-33.86, lng:151.211, start_time:"2011", end_time:"2011", brand:"images/kaplan_logo.jpg", type:"personal", id:"d4"},
     {title:"Outsourcing", place:"Delhi", lat:28.61, lng:77.23, start_time:"2010", end_time:"2010", brand:"images/kaplan_logo.jpg", type:"career", id:"c1"},
     {title:"Moodle conference", place:"Crete", lat:35.21, lng:24.91, start_time:"2007", end_time:"2007", brand:"images/moodle_logo.jpg", type:"personal", id:"c6"},
