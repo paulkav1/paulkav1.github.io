@@ -37,8 +37,8 @@ li{
     color:red;
 }
 .pic{
-    height:50px;
-    padding:2px;
+    height:100px;
+    margin:3px;
 }
 .page{
     text-align:left;
@@ -94,7 +94,6 @@ li{
     font-size:11pt;
 }
 #time_line{
-    top:5px;
     margin:5px;
     length:850px;
 }
@@ -104,7 +103,7 @@ li{
 }
 #item_detail{
     visibility:hidden;
-    font-size:15pt;
+    font-size:13pt;
     font-color:black;
     position:absolute;
     left:750px;
@@ -114,4 +113,8 @@ li{
     height:auto;
     border-radius:3px;
     background-color:ivory;
+}
+#item_detail h2{
+    font-style:bold;
+    color:red;
 }

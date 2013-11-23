@@ -2,12 +2,14 @@ $(document).ready(function(){
   $.getScript("http://paulkav1.github.io/data.js", function(){
       for (var i = 0; i < activities.length; i++){
           activities[i].desc = descriptions[activities[i].id]
+          descriptions[activities[i].id] = activities[i]
       }
       make_timeline();
 
       $('.happening').mouseover(function() {
         var id = event.target.id;
-        $('#item_detail').html(descriptions[id]);
+        var detail = '<h2>' + descriptions[id].title + '</h2>' + descriptions[id].desc + '<img class="pic" src="' + descriptions[id].brand + '">';
+        $('#item_detail').html(detail);
         $('#item_detail').css("visibility","visible");           
       }); 
   });
@@ -19,8 +21,9 @@ function make_timeline(){
   for (var i = 0; i < activities.length; i++){
       item = activities[i];
       dim = plot_data(item["start_time"], item["end_time"], i);
-      ht_str += '<div style="font-size:14px; border:1px solid grey; font-family:times; padding:2px; position:fixed; background-color:ivory; color:black; border-radius:3px; left:' + dim.l 
-        + 'px; width:' + dim.w + 'px; top:' + dim.t + 'px" class="happening" id="' + item["id"] + '">' + item["title"] + '</div>';
+      ht_str += '<div style="font-size:14px; border:1px solid grey; font-family:times; padding:2px; position:fixed; '
+        + 'background-color:ivory; color:black; border-radius:3px; left:' + dim.l + 'px; width:' 
+        + dim.w + 'px; top:' + dim.t + 'px" class="happening" id="' + item["id"] + '">' + item["title"] + '</div>';
   };
   $('#canvas').html(ht_str);
 }
