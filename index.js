@@ -19,7 +19,7 @@ function make_timeline(){
   for (var i = 0; i < activities.length; i++){
       item = activities[i];
       dim = plot_data(item["start_time"], item["end_time"], i);
-      ht_str += '<div style="font-size:12px; border:1px solid grey; font-family:times; padding:1px; position:fixed; background-color:ivory; color:black; border-radius:3px; left:' + dim.l 
+      ht_str += '<div style="font-size:14px; border:1px solid grey; font-family:times; padding:2px; position:fixed; background-color:ivory; color:black; border-radius:3px; left:' + dim.l 
         + 'px; width:' + dim.w + 'px; top:' + dim.t + 'px" class="happening" id="' + item["id"] + '">' + item["title"] + '</div>';
   };
   $('#canvas').html(ht_str);
@@ -31,15 +31,15 @@ function plot_data(start, end, order){
   var e2 = Math.floor(960 - (Math.log(2014 - end) * 220));
   noise = (Math.random() * 20) - 10;
   var dim = {};
-  if (e2 - e1 < 50){
-    dim.w = 60; 
+  if (e2 - e1 < 70){
+    dim.w = 70; 
     dim.l = e1 - 60;
   } else {
     dim.w = e2 - e1;
     dim.l = e1;
   }
   dim.l += noise;
-  dim.t = 180 + (40 * (order % 12));
+  dim.t = 120 + (42 * (order % 12));
  
   return dim;
 }

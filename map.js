@@ -24,7 +24,7 @@ function build_markers(){
 //build the Google map
 function init_map() { 
     var mapOptions = {center: new google.maps.LatLng(38.0, -95.0), zoom: 5, mapTypeId: google.maps.MapTypeId.ROADMAP};
-    var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+    var map = new google.maps.Map(document.getElementById("canvas"), mapOptions);
     set_map_markers(map);
     map.fitBounds(get_map_bounds());
 };

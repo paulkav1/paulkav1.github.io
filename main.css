@@ -13,83 +13,31 @@ li{
     color:#3333AA;
     margin-top:9px;
 }
-.text_panel{
-    float:left;
-    width:20%;
-    height:25%;
-    margin:4px;
-    border: 1px solid gray;
-    padding:2px;
-    border-radius:2px;
-}
-.pic_panel{
-    float:left;
-    width:20%;
-    height:25%;
-    margin:4px;
-}
-.navbar{
-	background-color: white;
-	float: right;
-	margin-top: 10px;
-    padding-bottom:60px;
-    whitespace:nowrap;
-}
-.navbar ul li{
-	display: inline;
-	color: #30669c;
-}
-.navbar ul li a:hover{
-	color: #18AFE0;
-}
-.navbar a{
-	text-decoration:none;	
-	font-family:sans-serif;
-	color:#222222;
-	padding:25px 5px 10px 8px;
-	font-size:16px;
-	vertical-align:center;
-	align:right;
-	margin:10px;
-}
-.navbar a:hover{
-	color:red;
-}
-.fun{
-    height:120px;  
-}
-.caption{
-    position:relative;
-    bottom:-8px;
-    left:4px;
-    visibility:hidden;
-}
 #app_nav{
     whitespace:nowrap;
-    padding:10px;
-    margin:10px;
+    padding:5px;
 }
 #app_nav li{
-    margin:20px 75px;  
+    margin:5px 60px;  
     width:100%;
     display:inline;
 }
 #app_nav a{
-    background-color:#DDCCDD;
+    background-color:#DDDDDD;
     text-decoration:none;   
     font-family:sans-serif;
     font-style:bold;
     color:#444488;
-    font-size:24px;
-    padding:10px;
-    border-radius:3px;
-    border:2px solid grey;
+    font-size:16px;
+    padding:2px;
+    border-radius:2px;
+    border:1px solid grey;
 }
 #app_nav a:hover{
     color:red;
 }
 .page{
-    text-align: left;
+    text-align:left;
     float:left;
     margin-left: auto;
     margin-right: auto;
@@ -97,50 +45,31 @@ li{
     min-width:900px;
     background-color:white;
     position:absolute;
-    top:40px;
+    top:20px;
 }
 .header{
-    font-size:24px;
+    font-size:20px;
     font-style:bold;
-    margin:9px;
+    margin:5px;
     font-family:arial, sans-serif;
     color:#FE2266;
-    float: left;
-    height:70px;
-    width:200px;
+    float:left;
+    height:30px;
+    width:180px;
 }
 .logo{
     height:60px;
-    margin:12px;
-}
-.timeline{
-    width:960px;
-    margin:10px;
+    margin:25px;
 }
 .li_logo{
     display: inline;
 }
-#map-canvas, #logo-canvas{
-    float:left;
-    top:10px;
-    height: 90%; 
-    width:90%;
-    margin:10px 20px;
-    min-width:800px;
-}
-#logo-canvas{
-    float:left;
-    top:10px;
-    height: 90%; 
-    width:70%;
-    margin:10px;   
-}
 #canvas{
     float:left;
-    height: 90%; 
+    top:120px;
+    height:90%; 
     width:90%;
     margin:10px 20px;
-    min-width:400px;
 }
 #canvas h1{
     color:#2222AA;
