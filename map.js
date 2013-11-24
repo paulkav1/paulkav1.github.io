@@ -1,7 +1,7 @@
 var markers = [];
 
 $(document).ready(function(){
-    $.getScript("http://paulkav1.github.io/data.js", function(){
+    $.getScript("http://pakra1.com/data.js", function(){
         for (var i = 0; i < activities.length; i++){
             activities[i].desc = descriptions[activities[i].id]
         }  
@@ -13,8 +13,7 @@ $(document).ready(function(){
 function build_markers(){
     markers = [];
     var j = 0;
-//    for (var i = 0; i < activities.length; i++){
-    for (var i = 0; i < 1; i++){    
+    for (var i = 0; i < activities.length; i++){
         if (!isNaN(activities[i].lat) && !isNaN(activities[i].lng)){
             markers[j] = {"pos":new google.maps.LatLng(activities[i].lat, activities[i].lng), "title":activities[i].title, "desc":activities[i].desc};
             j++;

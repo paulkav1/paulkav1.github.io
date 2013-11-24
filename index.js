@@ -1,35 +1,43 @@
 $(document).ready(function(){
-  $.getScript("http://paulkav1.github.io/data.js", function(){
+  $.getScript("http://pakra1.com/data.js", function(){
+      var descs = {};
       for (var i = 0; i < activities.length; i++){
-          activities[i].desc = descriptions[activities[i].id]
-          descriptions[activities[i].id] = activities[i]
+          activities[i].desc = descriptions[activities[i].id];
+          descs[activities[i].id] = activities[i]
       }
-      make_timeline();
+
+      make_timeline(descs);
 
       $('.happening').mouseover(function() {
         var id = event.target.id;
-        var detail = '<h2>' + descriptions[id].title + '</h2>';
-        if (descriptions[id].logo !== undefined){
-            detail += '<img class="log" src="' + descriptions[id].logo + '"> '
+        var detail = '<h2>' + descs[id].title + '</h2>';
+        if (descs[id].logo !== undefined){
+            detail += '<img class="log" src="' + descs[id].logo + '"> '
           };        
-        detail += descriptions[id].desc 
-            + '<img class="pic" src="' + descriptions[id].pic + '">';
+        detail += descs[id].desc;
+        if (descs[id].pic !== undefined){ 
+            detail += '<img class="pic" src="' + descs[id].pic + '">';
+        }
         $('#item_detail').html(detail);
         $('#item_detail').css("visibility","visible");           
-      }); 
+      });
+       
+      $('.happening').mouseout(function() {       
+          $('#item_detail').css("visibility","hidden");
+      });         
   });
 });
 
-function make_timeline(){
+function make_timeline(descs){
   var ht_str = '';
   var order = 0;
   var css_items = []
-    for (var i = 0; i < activities.length; i++){
-      var item = activities[i];
-      dim = plot_data(item["start_time"], item["end_time"], i);
+    for (item in descs){
+      dim = plot_data(descs[item].start_time, descs[item].end_time, order);
       ht_str += '<div style="font-size:14px; border:1px solid grey; font-family:times; padding:2px; position:fixed; '
         + 'background-color:ivory; color:black; border-radius:3px; left:' + dim.l + 'px; width:' 
-        + dim.w + 'px; top:' + dim.t + 'px" class="happening" id="' + item["id"] + '">' + item["title"] + '</div>';
+        + dim.w + 'px; top:' + dim.t + 'px" class="happening" id="' + descs[item].id + '">' + descs[item].title + '</div>';
+      order += 1;
   };
   $('#canvas').html(ht_str);
 }
