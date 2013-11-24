@@ -31,7 +31,7 @@ var activities = [
     {title:"Diving", place:"Brisbane", lat:-27.468, lng:153.028, start_time:"2010", end_time:"2010", brand:"images/scuba.jpg", type:"personal", id:"d3"},   
     {title:"Kaplan online", place:"Sydney", lat:-33.86, lng:151.211, start_time:"2011", end_time:"2011", brand:"images/kaplan_logo.jpg", type:"personal", id:"d4"},
     {title:"Outsourcing", place:"Delhi", lat:28.61, lng:77.23, start_time:"2010", end_time:"2010", brand:"images/delhi.jpg", type:"career", id:"c1"},
-    {title:"Moodle conference", place:"Crete", lat:35.21, lng:24.91, start_time:"2011", end_time:"2011", brand:"images/moodle_logo.jpg", type:"personal", id:"c6"},  
+    {title:"Moodle conference", place:"Crete", lat:35.21, lng:24.91, start_time:"2011", end_time:"2011", brand:"images/moodle.jpg", type:"personal", id:"c6"},  
     {title:"Adelaide U", place:"Adelaide", lat:-34.929, lng:138.601, start_time:"2010", end_time:"2011", brand:"images/adelaide_logo.jpg", type:"career", id:"a6"},      
     {title:"LSE", place:"London", lat:51.501, lng:-0.126, start_time:"2010", end_time:"2013", brand:"images/lse_logo.jpg", type:"career", id:"e1"},
     {title:"Thinkful", place:"NYC", lat:40.714, lng:-73.961, start_time:"2013", end_time:"2013", brand:"images/thinkful.jpg", type:"career", id:"d5"}, 
