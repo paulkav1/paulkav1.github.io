@@ -1,7 +1,7 @@
 var markers = [];
 
 $(document).ready(function(){
-    $.getScript("http://pakra1.com/data.js", function(){
+    $.getScript("http://paulkav1.github.io/data.js", function(){
         for (var i = 0; i < activities.length; i++){
             activities[i].desc = descriptions[activities[i].id]
         }  

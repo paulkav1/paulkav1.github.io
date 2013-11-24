@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $.getScript("http://pakra1.com/data.js", function(){
+  $.getScript("http://paulkav1.github.io/data.js", function(){
       var descs = {};
       for (var i = 0; i < activities.length; i++){
           activities[i].desc = descriptions[activities[i].id];
@@ -21,7 +21,7 @@ $(document).ready(function(){
         $('#item_detail').html(detail);
         $('#item_detail').css("visibility","visible");           
       });
-       
+
       $('.happening').mouseout(function() {       
           $('#item_detail').css("visibility","hidden");
       });         
