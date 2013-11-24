@@ -12,8 +12,8 @@ var activities = [
     {title:"IBM AIX training", place:"Nice", lat:43.703, lng:7.266, start_time:"1990", end_time:"1994", pic:"images/rs6000.jpg", logo:"logos/ibm_logo.jpg", id:"b1"},
     {title:"IBM AIX training", place:"Madrid", lat:40.428, lng:-3.702, start_time:"1990", end_time:"1994", pic:"images/rs6000.jpg", logo:"logos/ibm_logo.jpg", id:"b1"},
     {title:"Microsoft", place:"Chicago", lat:41.882, lng:-87.628, start_time:"1994", end_time:"1996", pic:"images/burger.jpg", logo:"logos/ms_logo.jpg", id:"c2"},   
-    {title:"AGS/NTT", place:"Mountainside", lat:40.681, lng:-74.36, start_time:"1993", end_time:"1994", logo:"logos/ntt_logo.jpg", id:"d7"},
-    {title:"De Paul", place:"Chicago", lat:41.882, lng:-87.628, start_time:"1995", end_time:"1997", pic:"images/depaul_logo.jpg", id:"e7"},
+    {title:"AGS", place:"Mountainside", lat:40.681, lng:-74.36, start_time:"1993", end_time:"1994", pic:"images/roche.jpg", logo:"logos/verizon_logo.jpg", id:"d7"},
+    {title:"De Paul", place:"Chicago", lat:41.882, lng:-87.628, start_time:"1995", end_time:"1997", logo:"logos/depaul_logo.jpg", id:"e7"},
     {title:"Client/Server", start_time:"1994", end_time:"1994", pic:"images/cliserv.jpg", id:"e3"},
     {title:"Microsoft", place:"Tampa", lat:27.91, lng:-82.465, start_time:"1996", end_time:"1998", pic:"logos/publix_logo.jpg", logo:"logos/ms_logo.jpg",  id:"b5"}, 
     {title:"Darden", start_time:"1997", end_time:"1997", pic:"logos/darden_logos.jpg", id:"b3"},         
@@ -41,12 +41,12 @@ var activities = [
 
 var descriptions = {
 a1:'<p>Born in Brinkley, near Newmarket. Dullingham primary school. High school: Perse, Cambridge.</p>',
-a2:'<p>First job at Benton & Bowles (now Publicis), London advertising agency for Moet Chandon, Dewars, Kraft Foods, etc. Advertising buyer, then computer operations.</p>',
+a2:'<p>Benton & Bowles (now Publicis Omnicom), London advertising agency for Moet Chandon, Dewars, Kraft Foods, etc.</p><p>My first job was advertising buyer, then computer operations.</p>',
 a5:'<p>Analyst/programmer using IBM mainframe (MVS, CICS) for payroll and HR programs for the NYC Department of Education</p>',
-a6:'<p>Partnered with the University of Adalaide on several online masters programs</p>',
+a6:'<p>Partnered with the University of Adalaide on online masters programs in Business, Project Management, and Innovation.</p>',
 a9:'<p>Consulting for Microsoft on mobile (tablet) support at HealthSouth subsidiary in Vancouver</p>',
 b1:'<p>Founded and ran a business in Raleigh, specializing in AIX (IBM UNIX).</p><p>Trained IBM engineers in AIX administration, networking, internals, etc. at Las Colinas training center in Texas and various international IBM and partner locations</p>',
-b2:'<p>Ran the KU student team of twenty US developers plus similar-sized groups of outsourced resources in India and Mexico. Managed admissions, academic advising, and financial aid systems, and launched a lead generation entity which is now part of Education Dynamics.</p>' +
+b2:'<p>Ran the KU student team of twenty US developers plus similar-sized groups of outsourced resources in India and Mexico.</p><p>Managed admissions, academic advising, and financial aid systems, and launched a lead generation entity which is now part of Education Dynamics.</p>' +
     '<p>Leader of Kaplan migration from VB and traditional processes to C# and Scrum-based development.</p>' +
     '<p>Managed Kaplan’s selection of Pearson/eCollege as their learning management system, and created a team to integrate it. Led development of a Flash-based synchronous seminar for the Concord law school, now used across KU, and managed development of call center systems using Genesys software.</p>', 
 b3:'<p>Installed SQL Server as the store server in all Darden restaurants including Red Lobster, Olive Garden, and Bahama Breeze</p>',
@@ -72,7 +72,7 @@ d5:'<p>Thinkful Front End Web Development class. Built several small projects in
 d6:'<p>CTO of <a href="http://www.noodle.org">an education search and recommendation web site</a> for a startup launched by the founder of The Princeton Review and 2U.</p>' +
      '<p>Replaced outsourced development with a NY-based team and developed a new IT architecture emphasizing Python, MongoDB, Solr, and a REST API.</p>' +
      '<p>Managing data acquisition, software development, and IT operations using Amazon cloud services.</p>',
-d7:'<p>For AGS (now NTT Data), ran a division consulting on strategy, algorithms, and analytics for companies including IBM, Verizon, and Hoffmann-La Roche.</p>',
+d7:'<p>For AGS (then a Verizon company, now NTT Data), ran a division consulting on strategy, algorithms, and analytics for companies including IBM, Verizon, and Hoffmann-La Roche.</p>',
 d8:'<p>Led AGS teams developing software for NYC area organizations including foreign exchange trading for BoA/Merrill Lynch, price reporting for CME Group, international funds transfer for JP Morgan Chase, computer leasing for IBM, ATM’s for RBS NatWest, and teacher/student management for the NYC Department of Education.</p>',
 d9:'<p>For British Aerospace, developed systems on IBM mainframes to control production of combat (Tornado, Harrier) and civilian (Concorde, Airbus) aircraft. </p>',
 e1:'<p>B.Sc. Information Systems & Management, University of London (LSE)</p>',
