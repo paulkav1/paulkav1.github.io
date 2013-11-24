@@ -1,6 +1,6 @@
 var activities = [
-    {title:"Early years", place:"Brinkley", lat:52.2, lng:0.485, start_time:"1953", end_time:"1971", brand:"images/brinkley.jpg, type:"personal", id:"a1"},
-    {title:"Nottingham University", place:"Nottingham", lat:52.95, lng:-1.133, start_time:"1973", end_time:"1976", brand:"images/nottingham.jpg, type:"career", id:"e6"},    
+    {title:"Early years", place:"Brinkley", lat:52.2, lng:0.485, start_time:"1953", end_time:"1971", brand:"images/brinkley.jpg", type:"personal", id:"a1"},
+    {title:"Nottingham University", place:"Nottingham", lat:52.95, lng:-1.133, start_time:"1973", end_time:"1976", brand:"images/nottingham.jpg", type:"career", id:"e6"},    
     {title:"Advertising sales", place:"London", lat:51.501, lng:-0.126, start_time:"1977", end_time:"1979", brand:"images/publicis_logo.jpg", type:"career", id:"a2"},
     {title:"BAe Systems", place:"London", lat:51.372, lng:-0.453, start_time:"1979", end_time:"1981", brand:"images/tornado.jpg", type:"career", id:"d9"},
     {title:"AGS", place:"NYC", lat:40.714, lng:-73.961, start_time:"1984", end_time:"1988", brand:"images/ntt_logo.jpg", type:"career", id:"d8"}, 
@@ -18,8 +18,8 @@ var activities = [
     {title:"Microsoft", place:"Tampa", lat:27.91, lng:-82.465, start_time:"1996", end_time:"1998", brand:"images/darden_logo.jpg", type:"career", id:"b5"},   
     {title:"Microsoft", place:"Atlanta", lat:33.755, lng:-84.39, start_time:"1999", end_time:"2000", brand:"images/ms_logo.jpg", type:"career", id:"b6"},
     {title:"Health consulting", place:"Vancouver", lat:49.25, lng:-123.10, start_time:"2002", end_time:"2002", brand:"images/ms_logo.jpg", type:"career", id:"a9"},
-    {title:"Med cruising", place:"Istanbul", lat:41.014, lng:28.955, start_time:"2003", end_time:"2003", brand:"images/istanbul.jpg, type:"personal", id:"c4"}, 
-    {title:"Med cruising", place:"Tunis", lat:36.80, lng:10.183, start_time:"2004", end_time:"2004", brand:"images/istanbul.jpg, type:"personal", id:"c4"},   
+    {title:"Med cruising", place:"Istanbul", lat:41.014, lng:28.955, start_time:"2003", end_time:"2003", brand:"images/istanbul.jpg", type:"personal", id:"c4"}, 
+    {title:"Med cruising", place:"Tunis", lat:36.80, lng:10.183, start_time:"2004", end_time:"2004", brand:"images/istanbul.jpg", type:"personal", id:"c4"},   
     {title:"Open Source", place:"Fort Lauderdale", lat:26.136, lng:-80.142, start_time:"2004", end_time:"2004", brand:"images/opensrc.jpg", type:"career:", id:"e2"},        
     {title:"Consulting", place:"Miami", lat:25.787, lng:-80.224, start_time:"2002", end_time:"2004", brand:"images/elemis.gif", type:"career", id:"b4"}, 
     {title:"Kaplan", place:"Fort Lauderdale", lat:26.136, lng:-80.142, start_time:"2004", end_time:"2008", brand:"images/kaplan_logo.jpg", type:"career", id:"b2"},
@@ -34,7 +34,7 @@ var activities = [
     {title:"Moodle conference", place:"Crete", lat:35.21, lng:24.91, start_time:"2007", end_time:"2007", brand:"images/moodle_logo.jpg", type:"personal", id:"c6"},
     {title:"Adelaide U", place:"Adelaide", lat:-34.929, lng:138.601, start_time:"2010", end_time:"2011", brand:"images/adelaide_logo.jpg", type:"career", id:"a6"},      
     {title:"LSE", place:"London", lat:51.501, lng:-0.126, start_time:"2010", end_time:"2013", brand:"images/lse_logo.jpg", type:"career", id:"e1"},
-    {title:"Thinkful", place:"NYC", lat:40.714, lng:-73.961, start_time:"2013", end_time:"2013", brand:"images/thinkful.jpg, type:"career", id:"d5"}, 
+    {title:"Thinkful", place:"NYC", lat:40.714, lng:-73.961, start_time:"2013", end_time:"2013", brand:"images/thinkful.jpg", type:"career", id:"d5"}, 
     {title:"Noodle", place:"NYC", lat:40.714, lng:-73.961, start_time:"2012", end_time:"2013", brand:"images/noodle_logo.jpg", type:"career", id:"d6"}
 ];
 
