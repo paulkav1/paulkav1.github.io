@@ -25,8 +25,8 @@ var activities = [
     {title:"Retail consulting", place:"Miami", lat:25.787, lng:-80.224, start_time:"2002", end_time:"2004", logo:"logos/elemis.gif", id:"b4"}, 
     {title:"Kaplan", place:"Fort Lauderdale", lat:26.136, lng:-80.142, start_time:"2004", end_time:"2008", logo:"logos/ku_logo.jpg", id:"b2"},
     {title:"Peru", place:"Lima", lat:-12.043, lng:-77.028, start_time:"2007", end_time:"2007", pic:"images/mapi.jpg", id:"c3"},  
-    {title:"CSU", place:"Monterey", lat:36.6, lng:-121.9, start_time:"2009", end_time:"2012", pic:"images/csumb.jpg", logo:"logos/colloquy.jpg", id:"c9"},   
-    {title:"Colloquy", place:"Delray Beach", lat:26.459, lng:-80.083, start_time:"2009", end_time:"2012", pic:"logos/colloquy.jpg", id:"b7"}, 
+    {title:"CSU", place:"Monterey", lat:36.6, lng:-121.9, start_time:"2009", end_time:"2012", logo:"logos/csubm.jpg", id:"c9"},   
+    {title:"Colloquy", place:"Delray Beach", lat:26.459, lng:-80.083, start_time:"2009", end_time:"2012", logo:"logos/colloquy.jpg", id:"b7"}, 
     {title:"Online college", place:"Hong Kong", lat:22.278, lng:114.159, start_time:"2010", end_time:"2010", logo:"logos/kaplan.jpg", id:"b8"},   
     {title:"Online college", place:"Singapore", lat:1.300, lng:103.80, start_time:"2011", end_time:"2011", logo:"logos/kaplan.jpg", id:"b9"},    
     {title:"Diving", place:"Brisbane", lat:-27.468, lng:153.028, start_time:"2010", end_time:"2010", pic:"images/scuba.jpg", id:"d3"},   
@@ -76,9 +76,9 @@ d7:'<p>For AGS (then a Verizon company, now NTT Data), ran a division consulting
 d8:'<p>Led AGS teams developing software for NYC area organizations including foreign exchange trading for BoA/Merrill Lynch, price reporting for CME Group, international funds transfer for JP Morgan Chase, computer leasing for IBM, ATM’s for RBS NatWest, and teacher/student management for the NYC Department of Education.</p>',
 d9:'<p>For British Aerospace, developed systems on IBM mainframes to control production of combat (Tornado, Harrier) and civilian (Concorde, Airbus) aircraft. </p>',
 e1:'<p>B.Sc. Information Systems & Management, University of London (LSE)</p>',
-e2:'<p>Open Source Software published by Digital Press</p>',
-e3:'<p>Downsizing to Client/Server published by Academic Press</p>',
-e5:'<p>VS COBOL II for COBOL Programmers published by McGraw-Hill</p>',
+e2:'<p>Open Source Software</p><p>published by Digital Press</p>',
+e3:'<p>Downsizing to Client/Server</p><p>published by Academic Press</p>',
+e5:'<p>VS COBOL II for COBOL Programmers</p><p>published by McGraw-Hill</p>',
 e6:'<p>B.Sc. Mathematics, University of Nottingham</p> ',
-e7:'<p>De Paul University continuing education: Managing enterprise software development using practical project examples.</p>'
+e7:'<p>De Paul University continuing education:</p><p>Managing enterprise software development using practical project examples.</p>'
 }
