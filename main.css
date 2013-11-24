@@ -37,13 +37,14 @@ li{
     color:red;
 }
 .pic{
-    width:80%;
+    width:90%;
     margin:5px;
+    align:center;
 }
 .log{
     width:20%;
-    margin:1px;
-    float:right;
+    margin:2px;
+    align:right;
 }
 .logo{
     height:60px;
@@ -104,20 +105,21 @@ li{
 }
 #item_detail{
     visibility:hidden;
-    font-size:13pt;
+    font-size:12pt;
     font-color:black;
     position:absolute;
-    left:350px;
-    top:120px;
-    width:350px;
+    left:250px;
+    top:80px;
+    width:400px;
     border:solid grey 2px;
     height:auto;
     border-radius:5px;
     background-color:white;
     z-index:20;
-    padding:2px;
+    padding:4px;
 }
 #item_detail h2{
     font-style:bold;
+    font-size:14pt;
     color:red;
 }
