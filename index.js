@@ -8,7 +8,12 @@ $(document).ready(function(){
 
       $('.happening').mouseover(function() {
         var id = event.target.id;
-        var detail = '<h2>' + descriptions[id].title + '</h2>' + descriptions[id].desc + '<img class="pic" src="' + descriptions[id].pic + '">';
+        var detail = '<h2>' + descriptions[id].title + '</h2>'
+            + '<img class="log" src="' 
+            + descriptions[id].logo + '"> '        
+            + descriptions[id].desc 
+            + '<img class="pic" src="' 
+            + descriptions[id].pic + '">';
         $('#item_detail').html(detail);
         $('#item_detail').css("visibility","visible");           
       }); 
@@ -17,9 +22,10 @@ $(document).ready(function(){
 
 function make_timeline(){
   var ht_str = '';
+  var order = 0;
   var css_items = []
-  for (var i = 0; i < activities.length; i++){
-      item = activities[i];
+    for (var i = 0; i < activities.length; i++){
+      var item = activities[i];
       dim = plot_data(item["start_time"], item["end_time"], i);
       ht_str += '<div style="font-size:14px; border:1px solid grey; font-family:times; padding:2px; position:fixed; '
         + 'background-color:ivory; color:black; border-radius:3px; left:' + dim.l + 'px; width:' 

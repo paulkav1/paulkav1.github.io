@@ -18,8 +18,8 @@ var activities = [
     {title:"Microsoft", place:"Tampa", lat:27.91, lng:-82.465, start_time:"1996", end_time:"1998", pic:"logos/darden_logos.jpg", logo:"logos/brinkley.jpg",  id:"b5"},   
     {title:"Microsoft", place:"Atlanta", lat:33.755, lng:-84.39, start_time:"1999", end_time:"2000", pic:"logos/ms_logo.jpg", logo:"logos/brinkley.jpg",  id:"b6"},
     {title:"Health consulting", place:"Vancouver", lat:49.25, lng:-123.10, start_time:"2002", end_time:"2002", pic:"logos/ms_logo.jpg", logo:"logos/brinkley.jpg",  id:"a9"},
-    {title:"Med cruising", place:"Istanbul", lat:41.014, lng:28.955, start_time:"2003", end_time:"2003", pic:"images/istanbul.jpg",  id:"c4"}, 
-    {title:"Med cruising", place:"Tunis", lat:36.80, lng:10.183, start_time:"2004", end_time:"2004", pic:"images/istanbul.jpg",  id:"c4"},   
+    {title:"Med cruising", place:"Istanbul", lat:41.014, lng:28.955, start_time:"2003", end_time:"2003", pic:"images/istanbul.jpg", id:"c4"}, 
+    {title:"Med cruising", place:"Tunis", lat:36.80, lng:10.183, start_time:"2004", end_time:"2004", pic:"images/istanbul.jpg", id:"c4"},   
     {title:"Open Source", start_time:"2004", end_time:"2004", pic:"images/opensrc.jpg", type:"career:", id:"e2"},        
     {title:"Retail consulting", place:"Miami", lat:25.787, lng:-80.224, start_time:"2002", end_time:"2004", pic:"logos/elemis.gif", id:"b4"}, 
     {title:"Kaplan", place:"Fort Lauderdale", lat:26.136, lng:-80.142, start_time:"2004", end_time:"2008", pic:"logos/ku_logo.jpg", logo:"logos/brinkley.jpg", id:"b2"},
@@ -46,7 +46,7 @@ a6:'<p>Partnered with University on online business masters programs</p>',
 a9:'<p>Consulting for Microsoft on mobile (tablet) support at HealthSouth subsidiary in Vancouver</p>',
 b1:'<p>Founded and ran a business in Raleigh, specializing in AIX (IBM UNIX). Trained IBM engineers in AIX administration, networking, internals, etc. at Las Colinas training center and various international IBM and partner locations</p>',
 b2:'<p>Ran the KU student team of twenty US developers plus similar-sized groups of outsourced resources in India and Mexico. Managed admissions, academic advising, and financial aid systems, and launched a lead generation entity which is now part of Education Dynamics.</p>' +
-      '<p>Leader of Kaplan migration from VB and traditional processes to C# and Scrum-based development.</p>' +
+    '<p>Leader of Kaplan migration from VB and traditional processes to C# and Scrum-based development.</p>' +
     '<p>Managed Kaplan’s selection of Pearson/eCollege as their learning management system, and created a team to integrate it. Led development of a Flash-based synchronous seminar for the Concord law school, now used across KU, and managed development of call center systems using Genesys software.</p>', 
 b4:'<p>Worked with a Miami consulting firm on delivery and management of ERP integration systems including a distributed inventory system for spas on all major cruise lines, and a consumer product system for consignment sales of perfume at K-Mart retail sites. Also consulted to Office Depot on their store portal for all retail stores.</p>',
 b5:'<p>As Managing Consultant in Florida, developed a consulting business serving enterprise customers with software development and operations/infrastructure services. Customers included American Express, Tech Data, Office Depot, Royal Caribbean, Carnival, Auto Nation, CSX, Harris, Florida state agencies, and dot-coms. Microsoft Consulting in Florida grew from two employees to forty, and major enterprise sales were made in several accounts.</p>',
@@ -58,7 +58,8 @@ b9:'<p>Installed Colloquy online education software in support of Kaplan college
 c1:'<p>Worked with Kaplan in-house offshore software development center on various projects in New Delhi</p>',
 c2:'<p>In Chicago, managed a profitable team supporting software development, architecture, and infrastructure engagements for major accounts including United Airlines, Kraft Foods and McDonald’s.</p>',
 c3:'<p>Lima, Cuzco, and Macchu Pichu with the family: llamas and ruins</p>',
-c4:'<p>Mediterranean: Istanbul mosques, palaces, and the Grand Bazaar. Tunis, Rhodes, on a mule in Santorini, Marseilles, Pompeii, Barcelona, Majorca, Naples...</p>',
+c4:'<p>Mediterranean -- Istanbul mosques, palaces, and the Grand Bazaar. Shopping in Tunis and Rhodes</p>' +
+    '<p>On a mule in Santorini, Marseilles, Pompeii, Barcelona, Majorca, Naples</p>',
 c6:'<p>Attended Moodle research conference on e-learning in Crete</p>',
 c9:'<p>Partnering with California State University, Monterey Bay to offer MBAs</p>',
 d3:'<p>Scuba diving at Lady Elliott Island, Great Barrier Reef, near Brisbane</p>',
@@ -66,9 +67,9 @@ d4:'<p>Reviewing and supporting several Kaplan efforts in online learning in Syd
 d5:'<p>Thinkful Front End Web Development class. Built several small projects including:<ul>' +
       '<li><a href="http://paulkav1.github.io/mapper/">College Search</a></li><li><a href="http://paulkav1.github.io/quiz/">Quiz</a></li>' +       
       '<li><a href="http://paulkav1.github.io/cart/">Shopping List</a></li><li><a href="http://paulkav1.github.io/huckle/">Hot or Cold</a></li></ul></p>',
-d6:'<p>CTO of <a href="http://www.noodle.org">an education search and recommendation web site</a> for a startup launched by the founder of The Princeton Review and 2U.' +
-     'Replaced outsourced development with a NY-based team and developed a new IT architecture emphasizing Python, MongoDB, Solr, and a REST API.' +
-     'Managing data acquisition, software development, and IT operations using Amazon cloud services.</p>',
+d6:'<p>CTO of <a href="http://www.noodle.org">an education search and recommendation web site</a> for a startup launched by the founder of The Princeton Review and 2U.</p>' +
+     '<p>Replaced outsourced development with a NY-based team and developed a new IT architecture emphasizing Python, MongoDB, Solr, and a REST API.</p>' +
+     '<p>Managing data acquisition, software development, and IT operations using Amazon cloud services.</p>',
 d7:'<p>For AGS (now NTT Data), ran a division consulting on strategy, algorithms, and analytics for companies including IBM, Verizon, and Hoffmann-La Roche.</p>',
 d8:'<p>Led AGS teams developing software for NYC area organizations including foreign exchange trading for BoA/Merrill Lynch, price reporting for CME Group, international funds transfer for JP Morgan Chase, computer leasing for IBM, ATM’s for RBS NatWest, and teacher/student management for the NYC Department of Education.</p>',
 d9:'<p>For British Aerospace, developed systems on IBM mainframes to control production of combat (Tornado, Harrier) and civilian (Concorde, Airbus) aircraft. </p>',
@@ -77,5 +78,5 @@ e2:'<p>Open Source Software published by Digital Press</p>',
 e3:'<p>Downsizing to Client/Server published by Academic Press</p>',
 e5:'<p>VS COBOL II for COBOL Programmers published by McGraw-Hill</p>',
 e6:'<p>B.Sc. Mathematics, University of Nottingham</p> ',
-e7:'<p>Continuing education class for De Paul University: Managing enterprise software development</p>'
+e7:'<p>De Paul University continuing education: Managing enterprise software development using practical project examples.</p>'
 }

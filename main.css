@@ -40,6 +40,17 @@ li{
     width:80%;
     margin:5px;
 }
+.log{
+    width:20%;
+    margin:1px;
+}
+.logo{
+    height:60px;
+    margin:25px;
+}
+.li_logo{
+    display: inline;
+}
 .page{
     text-align:left;
     float:left;
@@ -60,13 +71,7 @@ li{
     height:30px;
     width:180px;
 }
-.logo{
-    height:60px;
-    margin:25px;
-}
-.li_logo{
-    display: inline;
-}
+
 #canvas{
     float:left;
     top:120px;
