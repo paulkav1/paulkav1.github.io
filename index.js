@@ -8,7 +8,7 @@ $(document).ready(function(){
 
       $('.happening').mouseover(function() {
         var id = event.target.id;
-        var detail = '<h2>' + descriptions[id].title + '</h2>' + descriptions[id].desc + '<img class="pic" src="' + descriptions[id].brand + '">';
+        var detail = '<h2>' + descriptions[id].title + '</h2>' + descriptions[id].desc + '<img class="pic" src="' + descriptions[id].pic + '">';
         $('#item_detail').html(detail);
         $('#item_detail').css("visibility","visible");           
       }); 
