@@ -8,12 +8,12 @@ $(document).ready(function(){
 
       $('.happening').mouseover(function() {
         var id = event.target.id;
-        var detail = '<h2>' + descriptions[id].title + '</h2>'
-            + '<img class="log" src="' 
-            + descriptions[id].logo + '"> '        
-            + descriptions[id].desc 
-            + '<img class="pic" src="' 
-            + descriptions[id].pic + '">';
+        var detail = '<h2>' + descriptions[id].title + '</h2>';
+        if (descriptions[id].logo !== undefined){
+            detail += '<img class="log" src="' + descriptions[id].logo + '"> '
+          };        
+        detail += descriptions[id].desc 
+            + '<img class="pic" src="' + descriptions[id].pic + '">';
         $('#item_detail').html(detail);
         $('#item_detail').css("visibility","visible");           
       }); 

@@ -13,7 +13,8 @@ $(document).ready(function(){
 function build_markers(){
     markers = [];
     var j = 0;
-    for (var i = 0; i < activities.length; i++){
+//    for (var i = 0; i < activities.length; i++){
+    for (var i = 0; i < 5; i++){    
         if (!isNaN(activities[i].lat) && !isNaN(activities[i].lng)){
             markers[j] = {"pos":new google.maps.LatLng(activities[i].lat, activities[i].lng), "title":activities[i].title, "desc":activities[i].desc};
             j++;
