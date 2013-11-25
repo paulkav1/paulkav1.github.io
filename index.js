@@ -5,7 +5,7 @@ $(document).ready(function(){
           activities[i].desc = descriptions[activities[i].id];
           descs[activities[i].id] = activities[i]
       }
-
+      //$('#ac').accordionPro({ theme:'light', horizontalHeight:600, horizontalWidth:900 }); 
       make_timeline(descs);
 
       $('.happening').mouseover(function() {

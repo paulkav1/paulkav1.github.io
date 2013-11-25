@@ -5,7 +5,7 @@ var activities = [
     {title:"BAe Systems", place:"London", lat:51.372, lng:-0.453, start_time:"1979", end_time:"1981", pic:"images/tornado.jpg", logo:"logos/bae_logo.jpg", id:"d9"},
     {title:"AGS", place:"NYC", lat:40.714, lng:-73.961, start_time:"1984", end_time:"1988", logo:"logos/verizon_logo.jpg", pic:"images/prices.jpg", id:"d8"}, 
     {title:"NYC DoE", place:"NYC", lat:40.714, lng:-73.961, start_time:"1981", end_time:"1984", pic:"images/NY_boroughs.jpg", logo:"logos/doe_logo.jpg", id:"a5"},    
-    {title:"COBOL", place:"NYC", start_time:"1988", end_time:"1989", pic:"images/cobol.jpg", id:"e5"},
+    {title:"COBOL", start_time:"1988", end_time:"1989", pic:"images/cobol.jpg", id:"e5"},
     {title:"IBM AIX training", place:"Mexico City", lat:19.433, lng:-99.133, start_time:"1990", end_time:"1994", pic:"images/rs6000.jpg", logo:"logos/ibm_logo.jpg", id:"b1"}, 
     {title:"IBM AIX training", place:"Dallas", lat:32.776, lng:-96.797, start_time:"1990", end_time:"1994", pic:"images/rs6000.jpg", logo:"logos/ibm_logo.jpg", id:"b1"},   
     {title:"IBM AIX training", place:"Raleigh", lat:35.819, lng:-78.645, start_time:"1990", end_time:"1994", pic:"images/rs6000.jpg", logo:"logos/ibm_logo.jpg", id:"b1"},    
@@ -35,7 +35,7 @@ var activities = [
     {title:"Moodle conference", place:"Crete", lat:35.21, lng:24.91, start_time:"2011", end_time:"2011", logo:"logos/moodle.jpg", id:"c6"},  
     {title:"Adelaide", place:"Adelaide", lat:-34.929, lng:138.601, start_time:"2010", end_time:"2011", pic:"logos/adelaide_logo.jpg", id:"a6"},      
     {title:"LSE", place:"London", lat:51.501, lng:-0.126, start_time:"2010", end_time:"2013", logo:"logos/lse_logo.jpg", id:"e1"},
-    {title:"Thinkful", place:"NYC", lat:40.714, lng:-73.961, start_time:"2013", end_time:"2013", logo:"logos/thinkful.jpg", id:"d5"}, 
+    {title:"Thinkful", place:"NYC", start_time:"2013", end_time:"2013", logo:"logos/thinkful.jpg", id:"d5"}, 
     {title:"Noodle", place:"NYC", lat:40.714, lng:-73.961, start_time:"2012", end_time:"2013", logo:"logos/noodle_logo.jpg", id:"d6"}
 ];
 

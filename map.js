@@ -4,9 +4,10 @@ $(document).ready(function(){
     $.getScript("http://paulkav1.github.io/data.js", function(){
         for (var i = 0; i < activities.length; i++){
             activities[i].desc = descriptions[activities[i].id]
-        }  
+        }
         build_markers();
-        google.maps.event.addDomListener(window, 'load', init_map);     
+        init_map();
+        //google.maps.event.addDomListener(window, 'load', init_map);     
     });
 });
 
@@ -14,19 +15,26 @@ function build_markers(){
     markers = [];
     var j = 0;
     for (var i = 0; i < activities.length; i++){
-        if (!isNaN(activities[i].lat) && !isNaN(activities[i].lng)){
-            markers[j] = {"pos":new google.maps.LatLng(activities[i].lat, activities[i].lng), "title":activities[i].title, "desc":activities[i].desc};
-            j++;
+        if (activities[i].lat !== undefined){
+            if (!isNaN(activities[i].lat) && !isNaN(activities[i].lng)){
+                markers[j] = {"pos":new google.maps.LatLng(activities[i].lat, activities[i].lng), "title":activities[i].title, "desc":activities[i].desc};
+                j++;
+            }
         }
     };
+    alert(j + " markers");
 };
 
 //build the Google map
-function init_map() { 
+function init_map() {
+    alert("in map call"); 
     var mapOptions = {center: new google.maps.LatLng(38.0, -95.0), zoom: 5, mapTypeId: google.maps.MapTypeId.ROADMAP};
     var map = new google.maps.Map(document.getElementById("canvas"), mapOptions);
+    alert("map");
     set_map_markers(map);
+    alert("markers set");
     map.fitBounds(get_map_bounds());
+    alert("bounds set");
 };
 
 function set_map_markers(map){
