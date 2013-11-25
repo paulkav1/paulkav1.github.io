@@ -22,19 +22,14 @@ function build_markers(){
             }
         }
     };
-    alert(j + " markers");
 };
 
 //build the Google map
 function init_map() {
-    alert("in map call"); 
     var mapOptions = {center: new google.maps.LatLng(38.0, -95.0), zoom: 5, mapTypeId: google.maps.MapTypeId.ROADMAP};
     var map = new google.maps.Map(document.getElementById("canvas"), mapOptions);
-    alert("map");
     set_map_markers(map);
-    alert("markers set");
     map.fitBounds(get_map_bounds());
-    alert("bounds set");
 };
 
 function set_map_markers(map){
