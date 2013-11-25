@@ -10,6 +10,12 @@ $(document).ready(function(){
 
       $('.happening').mouseover(function() {
         var id = event.target.id;
+        //if (descs[id].end_time < "2005"){
+        if (event.pageX <450){          
+          $('#item_detail').css("left","550px"); 
+        }else{
+          $('#item_detail').css("left","20px");           
+        }
         var detail = '<h2>' + descs[id].title + '</h2>';
         if (descs[id].logo !== undefined){
             detail += '<img class="log" src="' + descs[id].logo + '"> '

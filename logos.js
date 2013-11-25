@@ -8,6 +8,11 @@ $(document).ready(function(){
 
         $('.logo').mouseover(function() {
           var id = event.target.id;
+          if (event.pageX <450){
+            $('#item_detail').css("left","550px"); 
+          }else{
+            $('#item_detail').css("left","20px");           
+          }
           var detail = '<h2>' + descs[id].title + '</h2>';
           if (descs[id].logo !== undefined){
               detail += '<img class="log" src="' + descs[id].logo + '"> '
