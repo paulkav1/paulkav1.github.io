@@ -28,9 +28,9 @@ $(document).ready(function(){
         $('#item_detail').css("visibility","visible");           
       });
 
-      $('.happening').mouseout(function() {       
-          $('#item_detail').css("visibility","hidden");
-      });         
+//      $('.happening').mouseout(function() {       
+//          $('#item_detail').css("visibility","hidden");
+//      });         
   });
 });
 

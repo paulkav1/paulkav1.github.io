@@ -37,8 +37,8 @@ li{
     color:red;
 }
 .pic{
-    width:95%;
-    margin:5px;
+    width:96%;
+    margin:6px;
     align:center;
 }
 .log{
@@ -116,7 +116,7 @@ li{
     border-radius:5px;
     background-color:white;
     z-index:20;
-    padding:4px;
+    padding:5px;
 }
 #item_detail h2{
     font-style:bold;
