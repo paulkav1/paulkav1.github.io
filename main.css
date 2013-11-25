@@ -90,6 +90,16 @@ li{
     height:40px;
     margin:0px 10px;
 }
+.chyron{
+    float:left;
+    width:100%;
+    height:24px;
+    padding:5px;
+    font-family:georgia;
+    font-size:10pt;
+    background-color:#DDDDDD;
+    border:solid #CCCCCC 1px;    
+}
 #canvas{
     float:left;
     top:120px;
@@ -116,8 +126,9 @@ li{
     font-size:11pt;
 }
 #time_line{
-    margin:2px;
-    length:850px;
+    length:800px;
+    position:relative;
+    top:4px;
 }
 #item_detail{
     visibility:hidden;
