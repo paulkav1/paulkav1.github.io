@@ -6,7 +6,7 @@ $(document).ready(function(){
             descs[activities[i].id] = activities[i]            
         }
 
-        $('.logo').mouseover(function() {
+        $('.logo').mouseover(function(event){
           var id = event.target.id;
           if (event.pageX <450){
             $('#item_detail').css("left","550px"); 
