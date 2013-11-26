@@ -8,7 +8,7 @@ $(document).ready(function(){
       //$('#ac').accordionPro({ theme:'light', horizontalHeight:600, horizontalWidth:900 }); 
       make_timeline(descs);
 
-      $('.happening').mouseover(function() {
+      $('.happening').mouseover(function(event) {
         var id = event.target.id;
         //if (descs[id].end_time < "2005"){
         if (event.pageX <450){          
