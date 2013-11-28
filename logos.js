@@ -25,8 +25,8 @@ $(document).ready(function(){
           $('#item_detail').css("visibility","visible");           
         });
 
-//        $('.logo').mouseout(function() {       
-//            $('#item_detail').css("visibility","hidden");
-//        });     
+        $('.logo').mouseout(function() {       
+            $('#item_detail').css("visibility","hidden");
+        });     
     });
 });

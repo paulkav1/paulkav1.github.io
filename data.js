@@ -56,7 +56,7 @@ b5:'<p>As Managing Consultant in Florida, developed a consulting business servin
     '<p>Microsoft Consulting in Florida grew from two employees to forty, and major enterprise sales were made in several accounts.</p>',
 b6:'<p>Application Development Customer Unit for Southeast sold through MSDN events for developers, relationships with software vendors and integrators, and line-of-business sales. Successes included large SQL Server adoptions at Darden (Red Lobster/Olive Garden), Publix, and agencies of the State of Florida. </p>',
 b7:'<p>CTO for this Kaplan startup, offering online admissions and education services in support of partner universities and Kaplan colleges in Asia/Pacific.</p>' +
-    '<p>Clients include George Washington University, UT Austin, University College Dublin, and the <a href="http://mapm.adelaide.edu.au/index.php">University of Adelaide</a>.' +
+    '<p>Clients include George Washington University, UT Austin, University College Dublin, and the University of Adelaide.' +
     '<p>Created new team and systems running on Amazon AWS in Europe, Asia/Pacific and the US. Won a company innovation award for use of open source and cloud computing and served on the CIO Council. Amazon, Moodle, Salesforce.com, and Alfresco became corporate global standards.</p>',
 b8:'<p>Installed customized version of Colloquy online education software in support of Kaplan college in Hong Kong</p>',
 b9:'<p>Installed Colloquy online education software in support of Kaplan college in Singapore</p>',
@@ -69,10 +69,8 @@ c6:'<p>Attended Moodle research conference on e-learning in Crete</p>',
 c9:'<p>Partnering with California State University, Monterey Bay to offer MBAs</p>',
 d3:'<p>Scuba diving at Lady Elliott Island, Great Barrier Reef, near Brisbane</p>',
 d4:'<p>Reviewing and supporting several Kaplan efforts in online learning in Sydney</p>',
-d5:'<p>Thinkful Front End Web Development class. Built several small projects including:<ul>' +
-      '<li><a href="http://paulkav1.github.io/mapper/">College Search</a></li><li><a href="http://paulkav1.github.io/quiz/">Quiz</a></li>' +       
-      '<li><a href="http://paulkav1.github.io/cart/">Shopping List</a></li><li><a href="http://paulkav1.github.io/huckle/">Hot or Cold</a></li></ul></p>',
-d6:'<p>CTO of <a href="http://www.noodle.org">an education search and recommendation web site</a> for a startup launched by the founder of The Princeton Review and 2U.</p>' +
+d5:'<p>Thinkful Front End Web Development class. Built several small projects (see links)</p>',
+d6:'<p>CTO of Noodle, an education search and recommendation web startup launched by the founder of The Princeton Review and 2U.</p>' +
      '<p>Replaced outsourced development with a NY-based team and developed a new IT architecture emphasizing Python, MongoDB, Solr, and a REST API.</p>' +
      '<p>Managing data acquisition, software development, and IT operations using Amazon cloud services.</p>',
 d7:'<p>For AGS (then a Verizon company, now NTT Data), ran a division consulting on strategy, algorithms, and analytics for companies including IBM, Verizon, and Hoffmann-La Roche.</p>',
