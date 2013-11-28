@@ -13,11 +13,11 @@ li{
     color:#3333AA;
     margin-top:9px;
 }
-#me{
+.me{
     float:left;
     padding:5px;
 }
-#me p{
+.me p{
     vertical-align:center;
     font-size:20px;
     font-style:bold;
