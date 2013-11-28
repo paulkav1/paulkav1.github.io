@@ -6,27 +6,43 @@ $(document).ready(function(){
             descs[activities[i].id] = activities[i]            
         }
 
-        $('.logo').mouseover(function(event){
-          var id = event.target.id;
-          if (event.pageX <450){
-            $('#item_detail').css("left","550px"); 
-          }else{
-            $('#item_detail').css("left","20px");           
-          }
-          var detail = '<h2>' + descs[id].title + '</h2>';
-          if (descs[id].logo !== undefined){
-              detail += '<img class="log" src="' + descs[id].logo + '"> '
-            };        
-          detail += descs[id].desc;
-          if (descs[id].pic !== undefined){ 
-              detail += '<img class="pic" src="' + descs[id].pic + '">';
-          }          
-          $('#item_detail').html(detail);
-          $('#item_detail').css("visibility","visible");           
-        });
+      $('.happening').mouseover(function(event) {
+        var id = event.target.id;
+        var detail = '';
+        
+        if (event.pageX <450){          
+          $('#item_detail').css("left","550px"); 
+        }else{
+          $('#item_detail').css("left","20px");           
+        }
 
-        $('.logo').mouseout(function() {       
-            $('#item_detail').css("visibility","hidden");
-        });     
+        if (descs[id].logo !== undefined){
+            detail += '<img class="log" src="' + descs[id].logo + '"> ';
+        }else{ 
+          detail += '<h2>' + descs[id].title + '</h2>';
+        };               
+        detail += descs[id].desc;
+        if (descs[id].pic !== undefined){ 
+            detail += '<img class="pic" src="' + descs[id].pic + '">';
+        }
+        $('#item_detail').html(detail);
+        $('#item_detail').css("visibility","visible");           
+      });
+
+      $('.happening').mouseout(function() {       
+          $('#item_detail').css("visibility","hidden");
+      });
+
+      $('#links').mouseover(function(event){
+          $('#links_dropdown').css("visibility","visible");
+      });
+
+      $('#links_dropdown').mouseover(function(event){
+          $('#links_dropdown').css("visibility","visible");
+      });
+
+      $('#links_dropdown').mouseout(function() {       
+          $('#links_dropdown').css("visibility","hidden");
+      });     
     });
 });

@@ -8,6 +8,18 @@ $(document).ready(function(){
         build_markers();
         init_map();
     });
+
+  $('#links').mouseover(function(event){
+      $('#links_dropdown').css("visibility","visible");
+  });
+
+  $('#links_dropdown').mouseover(function(event){
+      $('#links_dropdown').css("visibility","visible");
+  });
+
+  $('#links_dropdown').mouseout(function() {       
+      $('#links_dropdown').css("visibility","hidden");
+  });      
 });
 
 function build_markers(){

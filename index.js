@@ -10,16 +10,19 @@ $(document).ready(function(){
 
       $('.happening').mouseover(function(event) {
         var id = event.target.id;
-        //if (descs[id].end_time < "2005"){
+        var detail = '';
+        
         if (event.pageX <450){          
           $('#item_detail').css("left","550px"); 
         }else{
           $('#item_detail').css("left","20px");           
         }
-        var detail = '<h2>' + descs[id].title + '</h2>';
+
         if (descs[id].logo !== undefined){
-            detail += '<img class="log" src="' + descs[id].logo + '"> '
-          };        
+            detail += '<img class="log" src="' + descs[id].logo + '"> ';
+        }else{ 
+          detail += '<h2>' + descs[id].title + '</h2>';
+        };               
         detail += descs[id].desc;
         if (descs[id].pic !== undefined){ 
             detail += '<img class="pic" src="' + descs[id].pic + '">';
@@ -30,7 +33,19 @@ $(document).ready(function(){
 
       $('.happening').mouseout(function() {       
           $('#item_detail').css("visibility","hidden");
-      });         
+      });
+
+      $('#links').mouseover(function(event){
+          $('#links_dropdown').css("visibility","visible");
+      });
+
+      $('#links_dropdown').mouseover(function(event){
+          $('#links_dropdown').css("visibility","visible");
+      });
+
+      $('#links_dropdown').mouseout(function() {       
+          $('#links_dropdown').css("visibility","hidden");
+      });                    
   });
 });
 

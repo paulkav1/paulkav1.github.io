@@ -150,3 +150,24 @@ li{
     font-size:14pt;
     color:red;
 }
+#links_dropdown{
+    visibility:hidden;
+    font-size:12pt;
+    font-color:black;
+    position:absolute;
+    left:1000px;
+    top:35px;
+    width:100px;
+    border:solid grey 1px;
+    height:auto;
+    border-radius:1px;
+    background-color:#CCCCCC;
+    z-index:20;
+    padding:5px;
+}
+#links_dropdown h2{
+    margin:10px 0px 0px 0px;
+    font-style:bold;
+    font-size:14pt;
+    color:red;
+}
