@@ -6,7 +6,7 @@ $(document).ready(function(){
             descs[activities[i].id] = activities[i]            
         }
 
-      $('.happening').mouseover(function(event) {
+      $('.li_logo').mouseover(function(event) {
         var id = event.target.id;
         var detail = '';
         
@@ -29,7 +29,7 @@ $(document).ready(function(){
         $('#item_detail').css("visibility","visible");           
       });
 
-      $('.happening').mouseout(function() {       
+      $('.li_logo').mouseout(function() {       
           $('#item_detail').css("visibility","hidden");
       });
 
