@@ -24,7 +24,7 @@ var activities = [
     {title:"Med cruising", place:"Istanbul", lat:41.014, lng:28.955, start_time:"2003", end_time:"2003", pic:"images/istanbul.jpg", id:"c4"}, 
     {title:"Med cruising", place:"Tunis", lat:36.80, lng:10.183, start_time:"2004", end_time:"2004", pic:"images/istanbul.jpg", id:"c4"},   
     {title:"Open Source", start_time:"2004", end_time:"2004", pic:"images/opensrc.jpg", id:"e2"},        
-    {title:"Office Depot", start_time:"2000", end_time:"2002", pic:"images/portal.jpg", logo:"logos/od_logo.jpg", id:"a7"}, 
+    {title:"Office Depot", start_time:"2000", end_time:"2002", pic:"images/od.jpg", logo:"logos/officedepot.jpg", id:"a7"}, 
     {title:"Retail consulting", place:"Miami", lat:25.787, lng:-80.224, start_time:"2002", end_time:"2004", pic:"images/elemis.jpg", logo:"logos/elemis.jpg", id:"b4"}, 
     {title:"Kaplan", place:"Fort Lauderdale", lat:26.136, lng:-80.142, start_time:"2004", end_time:"2008", logo:"logos/ku_logo.jpg", id:"b2"},
     {title:"Peru", place:"Lima", lat:-12.043, lng:-77.028, start_time:"2007", end_time:"2007", pic:"images/mapi.jpg", id:"c3"},  
