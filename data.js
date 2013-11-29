@@ -1,7 +1,7 @@
 var activities = [
     {title:"Birth-18", place:"Brinkley", lat:52.2, lng:0.485, start_time:"1953", end_time:"1971", pic:"images/brinkley.jpg", id:"a1"},
     {title:"Nottingham University", place:"Nottingham", lat:52.95, lng:-1.133, start_time:"1973", end_time:"1976", pic:"images/nottingham.jpg", id:"e6"},    
-    {title:"Advertising", place:"London", lat:51.501, lng:-0.126, start_time:"1977", end_time:"1979", pic:"logos/publicis_logo.jpg", id:"a2"},
+    {title:"Benton & Bowles", place:"London", lat:51.501, lng:-0.126, start_time:"1977", end_time:"1979", logo:"logos/publicis_logo.jpg", pic:"images/publicis.jpg", id:"a2"},
     {title:"BAe Systems", place:"London", lat:51.372, lng:-0.453, start_time:"1979", end_time:"1981", pic:"images/tornado.jpg", logo:"logos/bae_logo.jpg", id:"d9"},
     {title:"AGS", place:"NYC", lat:40.714, lng:-73.961, start_time:"1984", end_time:"1988", logo:"logos/verizon_logo.jpg", pic:"images/prices.jpg", id:"d8"}, 
     {title:"NYC DoE", place:"NYC", lat:40.714, lng:-73.961, start_time:"1981", end_time:"1984", pic:"images/NY_boroughs.jpg", logo:"logos/doe_logo.jpg", id:"a5"},    
@@ -37,7 +37,7 @@ var activities = [
     {title:"Kaplan Australia", place:"Sydney", lat:-33.86, lng:151.211, start_time:"2011", end_time:"2011", pic:"images/adelaide.jpg", logo:"logos/kaplan.jpg", id:"d4"},
     {title:"Outsourcing", place:"Delhi", lat:28.61, lng:77.23, start_time:"2010", end_time:"2010", pic:"images/delhi.jpg", logo:"logos/kaplan.jpg", id:"c1"},
     {title:"Moodle conference", place:"Crete", lat:35.21, lng:24.91, start_time:"2011", end_time:"2011", logo:"logos/moodle.jpg", id:"c6"},  
-    {title:"Adelaide", place:"Adelaide", lat:-34.929, lng:138.601, start_time:"2010", end_time:"2011", pic:"logos/adelaide_logo.jpg", id:"a6"},      
+    {title:"Adelaide", place:"Adelaide", lat:-34.929, lng:138.601, start_time:"2010", end_time:"2011", logo:"logos/adelaide_logo.jpg", pic:"logos/adelaideu.jpg", id:"a6"},      
     {title:"LSE", place:"London", lat:51.501, lng:-0.126, start_time:"2010", end_time:"2013", logo:"logos/lse_logo.jpg", id:"e1"},
     {title:"Thinkful", place:"NYC", start_time:"2013", end_time:"2013", logo:"logos/thinkful.jpg", id:"d5"}, 
     {title:"Noodle", place:"NYC", lat:40.714, lng:-73.961, start_time:"2012", end_time:"2013", logo:"logos/noodle_logo.jpg", id:"d6"}
@@ -49,7 +49,7 @@ a2:'<p>Benton & Bowles (now Publicis Omnicom), London advertising agency for Moe
 a3:'<p>Risk management system for Merrill Lynch.</p>',
 a4:'<p>Internet reservation system for United Airlines</p>',
 a5:'<p>Analyst/programmer using IBM mainframe (MVS, CICS) for payroll and HR programs for the NYC Department of Education</p>',
-a6:'<p>Partnered with the University of Adalaide on online masters programs in Business, Project Management, and Innovation.</p>',
+a6:'<p>Partnered with the University of Adelaide on online masters programs in Business, Project Management, and Innovation and Entrepreneurship.</p>',
 a7:'<p>Internal portal for Office Depot, summarizing key sales data and plans. Used for daily huddle at 1000 retail stores.</p>',
 a8:'<p>ATM support for NatWest USA in Long Island</p>',
 a9:'<p>Consulting for Microsoft on mobile (tablet) support at HealthSouth subsidiary in Vancouver</p>',
