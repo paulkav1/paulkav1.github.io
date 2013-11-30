@@ -171,3 +171,19 @@ li{
     font-size:14pt;
     color:red;
 }
+#iw{
+    font-size:12pt;
+    font-color:black;
+    width:360px;
+    border:solid grey 2px;
+    height:auto;
+    border-radius:5px;
+    background-color:white;
+    z-index:20;
+    padding:5px;
+}
+#iw h2{
+    font-style:bold;
+    font-size:14pt;
+    color:red;
+}

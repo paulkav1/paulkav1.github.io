@@ -10,7 +10,6 @@ $(document).ready(function(){
 
       $('.happening').mouseover(function(event) {
         var id = event.target.id;
-        var detail = '';
         
         if (event.pageX <450){          
           $('#item_detail').css("left","550px"); 
@@ -18,16 +17,7 @@ $(document).ready(function(){
           $('#item_detail').css("left","20px");           
         }
 
-        if (descs[id].logo !== undefined){
-            detail += '<img class="log" src="' + descs[id].logo + '"> ';
-        }else{ 
-          detail += '<h2>' + descs[id].title + '</h2>';
-        };               
-        detail += descs[id].desc;
-        if (descs[id].pic !== undefined){ 
-            detail += '<img class="pic" src="' + descs[id].pic + '">';
-        }
-        $('#item_detail').html(detail);
+        $('#item_detail').html(build_detail(descs[id]));
         $('#item_detail').css("visibility","visible");           
       });
 
@@ -48,6 +38,23 @@ $(document).ready(function(){
       });                    
   });
 });
+
+function build_detail(d){
+    var detail = ''; 
+
+    if (d.logo !== undefined){
+        detail += '<img class="log" src="' + d.logo + '"> ';
+    }else{ 
+        detail += '<h2>' + d.title + '</h2>';
+    };               
+
+    detail += d.desc;
+    if (d.pic !== undefined){ 
+        detail += '<img class="pic" src="' + d.pic + '">';
+
+    return detail;
+    }
+}
 
 function make_timeline(descs){
   var ht_str = '';
