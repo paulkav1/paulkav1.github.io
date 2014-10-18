@@ -125,10 +125,10 @@ li{
     font-family:georgia, times;
     font-size:11pt;
 }
-#time_line{
-    length:800px;
-    position:relative;
-    top:4px;
+#timeline li{
+    margin:12px 70px;  
+    width:100%;
+    display:inline;
 }
 #item_detail{
     visibility:hidden;
