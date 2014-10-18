@@ -8,7 +8,7 @@ $(document).ready(function(){
             descs[activities[i].id] = activities[i]            
         }
         build_markers();
-        init_map(descs);
+        init_map();
     });
 
   $('#links').mouseover(function(event){
@@ -38,14 +38,14 @@ function build_markers(){
 };
 
 //build the Google map
-function init_map(descs) {
+function init_map(){
     var mapOptions = {center: new google.maps.LatLng(38.0, -95.0), zoom: 5, mapTypeId: google.maps.MapTypeId.ROADMAP};
     var map = new google.maps.Map(document.getElementById("canvas"), mapOptions);
-    set_map_markers(map, descs);
+    set_map_markers(map);
     map.fitBounds(get_map_bounds());
 };
 
-function set_map_markers(map, descs){
+function set_map_markers(map){
     var infowindow = new google.maps.InfoWindow({content: "...."});
 
     for (var i = 0; i < markers.length; i++){

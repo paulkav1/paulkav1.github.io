@@ -70,10 +70,10 @@ function make_timeline(descs){
   $('#canvas').html(ht_str);
 }
 
-//Map events to log scale given 1953 = 0, 2013 = 900
+//Map events to log scale given 1953 = 0, 2014 = 900
 function plot_data(start, end, order){
-  var e1 = Math.floor(960 - (Math.log(2014 - start) * 220));
-  var e2 = Math.floor(960 - (Math.log(2014 - end) * 220));
+  var e1 = Math.floor(960 - (Math.log(2015 - start) * 220));
+  var e2 = Math.floor(960 - (Math.log(2015 - end) * 220));
   noise = (Math.random() * 20) - 10;
   var dim = {};
   if (e2 - e1 < 70){
