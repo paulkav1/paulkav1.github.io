@@ -2,8 +2,8 @@ $(document).ready(function(){
     $.getScript("http://paulkav1.github.io/data.js", function(){
         var descs = {};
         for (var i = 0; i < activities.length; i++){
-            activities[i].desc = descriptions[activities[i].id]
-            descs[activities[i].id] = activities[i]            
+            activities[i].desc = descriptions[activities[i].id];
+            descs[activities[i].id] = activities[i];   
         }
 
       $('.li_logo').mouseover(function(event) {
@@ -24,6 +24,8 @@ $(document).ready(function(){
         detail += descs[id].desc;
         if (descs[id].pic !== undefined){ 
             detail += '<img class="pic" src="' + descs[id].pic + '">';
+        }else{
+          detail += '<p>' + 'no image' + '</p>';
         }
         $('#item_detail').html(detail);
         $('#item_detail').css("visibility","visible");           
@@ -45,4 +47,4 @@ $(document).ready(function(){
           $('#links_dropdown').css("visibility","hidden");
       });     
     });
-});
+});   

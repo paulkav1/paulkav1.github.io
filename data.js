@@ -38,7 +38,7 @@ var activities = [
     {title:"Adelaide", place:"Adelaide", lat:-34.929, lng:138.601, start_time:"2010", end_time:"2011", logo:"logos/adelaide_logo.jpg", pic:"images/adelaideu.jpg", id:"a6"},      
     {title:"LSE", place:"London", lat:51.501, lng:-0.126, start_time:"2010", end_time:"2013", logo:"logos/lse_logo.jpg", id:"e1"},
     {title:"Thinkful", place:"NYC", start_time:"2013", end_time:"2013", logo:"logos/thinkful.jpg", id:"d5"}, 
-    {title:"Noodle", place:"NYC", lat:40.714, lng:-73.961, start_time:"2012", end_time:"2014", pic:"images/noodle.jpg", logo:"logos/noodle_logo.jpg", id:"d6"},
+    {title:"Noodle", place:"NYC", lat:40.714, lng:-73.961, start_time:"2012", end_time:"2014", logo:"logos/noodle_logo.jpg", id:"d6"},
     {title:"Bank of America", place:"Charlotte", lat:35.22, lng:-80.84, start_time:"2014", end_time:"2014", pic:"images/boa.jpg", logo:"logos/boa_logo.jpg", id:"e8"}, 
     {title:"NextEra Energy", place:"Jupiter", lat:26.92, lng:-80.10, start_time:"2014", end_time:"2015", pic:"images/nextera.jpg", logo:"logos/nextera_logo.jpg", id:"e9"}   
 ];
