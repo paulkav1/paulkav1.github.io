@@ -1,5 +1,4 @@
 var activities = [
-    {title:"Birth-18", place:"Brinkley", lat:52.2, lng:0.485, start_time:"1953", end_time:"1971", pic:"images/brinkley.jpg", id:"a1"},
     {title:"Nottingham University", place:"Nottingham", lat:52.95, lng:-1.133, start_time:"1973", end_time:"1976", pic:"images/nottingham.jpg", id:"e6"},    
     {title:"Benton & Bowles", place:"London", lat:51.501, lng:-0.126, start_time:"1977", end_time:"1979", logo:"logos/publicis_logo.jpg", pic:"images/publicis.jpg", id:"a2"},
     {title:"BAe Systems", place:"London", lat:51.372, lng:-0.453, start_time:"1979", end_time:"1981", pic:"images/tornado.jpg", logo:"logos/bae_logo.jpg", id:"d9"},
