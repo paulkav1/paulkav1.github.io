@@ -72,8 +72,8 @@ function make_timeline(descs){
 
 //Map events to log scale given 1953 = 0, 2014 = 900
 function plot_data(start, end, order){
-  var e1 = Math.floor(1170 - (Math.log(2021 - start) * 250));
-  var e2 = Math.floor(1170 - (Math.log(2021 - end) * 250));
+  var e1 = Math.floor(1400 - (Math.log(2021 - start) * 280));
+  var e2 = Math.floor(1400 - (Math.log(2021 - end) * 280));
   noise = (Math.random() * 20) - 10;
   var dim = {};
   if (e2 - e1 < 70){
