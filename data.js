@@ -42,7 +42,7 @@ var activities = [
     {title:"Bank of America", place:"Charlotte", lat:35.22, lng:-80.84, start_time:"2014", end_time:"2014", pic:"images/boa.jpg", logo:"logos/boa_logo.jpg", id:"e8"}, 
     {title:"NextEra Energy", place:"Jupiter", lat:26.92, lng:-80.10, start_time:"2014", end_time:"2016", pic:"images/nextera.jpg", logo:"logos/nextera_logo.jpg", id:"e9"},
     {title:"Hearst Autos", place:"New York", lat:26.92, lng:-80.10, start_time:"2016", end_time:"2021", id:"f1"}   
-];];
+];
 
 var descriptions = {
 a1:'<p>Born in Brinkley, near Newmarket. Dullingham primary school. High school: Perse, Cambridge.</p>',
