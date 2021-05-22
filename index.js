@@ -84,7 +84,7 @@ function plot_data(start, end, order){
     dim.l = e1;
   }
   dim.l += noise;
-  dim.t = 160 + (42 * (order % 12));
+  dim.t = 160 + (50 * (order % 12));
  
   return dim;
 }
