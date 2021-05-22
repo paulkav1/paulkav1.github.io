@@ -46,7 +46,7 @@ var activities = [
 
 var descriptions = {
 a1:'<p>Born in Brinkley, near Newmarket. Dullingham primary school. High school: Perse, Cambridge.</p>',
-a2:'<p>Benton & Bowles (now Publicis Omnicom), London advertising agency for Moet Chandon, Dewars, Kraft Foods, etc.</p><p>My first job was advertising buyer, then computer operations.</p>',
+a2:'<p>Benton & Bowles (now Publicis), London advertising agency for Moet Chandon, Dewars, Kraft Foods, etc.</p><p>My first job was advertising buyer, then computer operations.</p>',
 a3:'<p>Risk management system for Merrill Lynch.</p>',
 a4:'<p>Internet reservation system for United Airlines</p>',
 a5:'<p>Analyst/programmer using IBM mainframe (MVS, CICS) for payroll and HR programs for the NYC Department of Education</p>',
