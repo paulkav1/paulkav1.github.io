@@ -40,8 +40,9 @@ var activities = [
     {title:"Thinkful", place:"NYC", start_time:"2013", end_time:"2013", logo:"logos/thinkful.jpg", id:"d5"}, 
     {title:"Noodle", place:"NYC", lat:40.714, lng:-73.961, start_time:"2012", end_time:"2014", logo:"logos/noodle_logo.jpg", id:"d6"},
     {title:"Bank of America", place:"Charlotte", lat:35.22, lng:-80.84, start_time:"2014", end_time:"2014", pic:"images/boa.jpg", logo:"logos/boa_logo.jpg", id:"e8"}, 
-    {title:"NextEra Energy", place:"Jupiter", lat:26.92, lng:-80.10, start_time:"2014", end_time:"2015", pic:"images/nextera.jpg", logo:"logos/nextera_logo.jpg", id:"e9"}   
-];
+    {title:"NextEra Energy", place:"Jupiter", lat:26.92, lng:-80.10, start_time:"2014", end_time:"2016", pic:"images/nextera.jpg", logo:"logos/nextera_logo.jpg", id:"e9"},
+    {title:"Hearst Autos", place:"New York", lat:26.92, lng:-80.10, start_time:"2016", end_time:"2021", id:"f1"}   
+];];
 
 var descriptions = {
 a1:'<p>Born in Brinkley, near Newmarket. Dullingham primary school. High school: Perse, Cambridge.</p>',
@@ -90,5 +91,6 @@ e5:'<p>VS COBOL II for COBOL Programmers</p><p>published by McGraw-Hill</p>',
 e6:'<p>B.Sc. Mathematics, University of Nottingham</p> ',
 e7:'<p>De Paul University continuing education:</p><p>Managing enterprise software development using practical project examples.</p>',
 e8:'<p>Helping to scale up Global Crimes Technology solutions using Java with Spring and Oracle, and introducing MongoDB.</p>',
-e9:'<p>Developing analytical applications for smart meters, streetlights, and asset/fault reporting using C#, Java, and Groovy with MongoDB and GreenPlum.</p>'
+e9:'<p>Developing analytical applications for smart meters, streetlights, and asset/fault reporting using C#, Scala, and Groovy with MongoDB and Postgres.</p>',
+f1:'<p>Developing advertising tools for the automotive industry using Node, React, Python, MySQL, Postgres and Google Ad Manager.</p>'
 }
