@@ -1,6 +1,4 @@
 var activities = [
-    {title:"Nottingham University", place:"Nottingham", lat:52.95, lng:-1.133, start_time:"1973", end_time:"1976", pic:"images/nottingham.jpg", id:"e6"},    
-    {title:"Benton & Bowles", place:"London", lat:51.501, lng:-0.126, start_time:"1977", end_time:"1979", logo:"logos/publicis_logo.jpg", pic:"images/publicis.jpg", id:"a2"},
     {title:"BAe Systems", place:"London", lat:51.372, lng:-0.453, start_time:"1979", end_time:"1981", pic:"images/tornado.jpg", logo:"logos/bae_logo.jpg", id:"d9"},
     {title:"AGS", place:"NYC", lat:40.714, lng:-73.961, start_time:"1984", end_time:"1988", logo:"logos/verizon_logo.jpg", pic:"images/prices.jpg", id:"d8"}, 
     {title:"NYC DoE", place:"NYC", lat:40.714, lng:-73.961, start_time:"1981", end_time:"1984", pic:"images/NY_boroughs.jpg", logo:"logos/doe_logo.jpg", id:"a5"},    
@@ -31,21 +29,17 @@ var activities = [
     {title:"Colloquy", place:"Delray Beach", lat:26.459, lng:-80.083, start_time:"2009", end_time:"2012", logo:"logos/colloquy.jpg", pic:"images/colloquy.jpg", id:"b7"}, 
     {title:"Kaplan Hong Kong", place:"Hong Kong", lat:22.278, lng:114.159, start_time:"2010", end_time:"2010", pic:"images/hongkong.jpg", logo:"logos/kaplan.jpg", id:"b8"},   
     {title:"Kaplan Singapore", place:"Singapore", lat:1.300, lng:103.80, start_time:"2011", end_time:"2011", pic:"images/singapore.jpg", logo:"logos/kaplan.jpg", id:"b9"},    
-    {title:"Diving", place:"Brisbane", lat:-27.468, lng:153.028, start_time:"2010", end_time:"2010", pic:"images/scuba.jpg", id:"d3"},   
+    {title:"Scuba diving", place:"Brisbane", lat:-27.468, lng:153.028, start_time:"2010", end_time:"2010", pic:"images/scuba.jpg", id:"d3"},
     {title:"Kaplan Australia", place:"Sydney", lat:-33.86, lng:151.211, start_time:"2011", end_time:"2011", pic:"images/adelaide.jpg", logo:"logos/kaplan.jpg", id:"d4"},
     {title:"Outsourcing", place:"Delhi", lat:28.61, lng:77.23, start_time:"2010", end_time:"2010", pic:"images/delhi.jpg", logo:"logos/kaplan.jpg", id:"c1"},
-    {title:"Moodle conference", place:"Crete", lat:35.21, lng:24.91, start_time:"2011", end_time:"2011", pic:"images/crete.jpg", logo:"logos/moodle.jpg", id:"c6"},  
-    {title:"Adelaide", place:"Adelaide", lat:-34.929, lng:138.601, start_time:"2010", end_time:"2011", logo:"logos/adelaide_logo.jpg", pic:"images/adelaideu.jpg", id:"a6"},      
+    {title:"Adelaide", place:"Adelaide", lat:-34.929, lng:138.601, start_time:"2010", end_time:"2011", logo:"logos/adelaide_logo.jpg", pic:"images/adelaideu.jpg", id:"a6"},
     {title:"LSE", place:"London", lat:51.501, lng:-0.126, start_time:"2010", end_time:"2013", logo:"logos/lse_logo.jpg", id:"e1"},
-    {title:"Thinkful", place:"NYC", start_time:"2013", end_time:"2013", logo:"logos/thinkful.jpg", id:"d5"}, 
     {title:"Noodle", place:"NYC", lat:40.714, lng:-73.961, start_time:"2012", end_time:"2014", logo:"logos/noodle_logo.jpg", id:"d6"},
     {title:"Bank of America", place:"Charlotte", lat:35.22, lng:-80.84, start_time:"2014", end_time:"2014", pic:"images/boa.jpg", logo:"logos/boa_logo.jpg", id:"e8"}, 
     {title:"NextEra Energy", place:"Jupiter", lat:26.92, lng:-80.10, start_time:"2014", end_time:"2016", pic:"images/nextera.jpg", logo:"logos/nextera_logo.jpg", id:"e9"},
-    {title:"Hearst Autos", place:"New York", lat:40.766, lng:-73.98, start_time:"2016", end_time:"2021", id:"f1"}   
+    {title:"Hearst Autos", place:"New York", lat:40.766, lng:-73.98, start_time:"2016", end_time:"2021", pic:"images/hearst_tower.jpg", logo:"logos/hearst_logo.jpg", id:"f1"}
 ];
 var descriptions = {
-a1:'<p>Born in Brinkley, near Newmarket. Dullingham primary school. High school: Perse, Cambridge.</p>',
-a2:'<p>Benton & Bowles (now Publicis), London advertising agency for Moet Chandon, Dewars, Kraft Foods, etc.</p><p>My first job was advertising buyer, then computer operations.</p>',
 a3:'<p>Risk management system for Merrill Lynch.</p>',
 a4:'<p>Internet reservation system for United Airlines</p>',
 a5:'<p>Analyst/programmer using IBM mainframe (MVS, CICS) for payroll and HR programs for the NYC Department of Education</p>',
@@ -92,4 +86,4 @@ e7:'<p>De Paul University continuing education:</p><p>Managing enterprise softwa
 e8:'<p>Helping to scale up Global Crimes Technology solutions using Java with Spring and Oracle, and introducing MongoDB.</p>',
 e9:'<p>Developing analytical applications for smart meters, streetlights, and asset/fault reporting using C#, Scala, and Groovy with MongoDB and Postgres.</p>',
 f1:'<p>Developing advertising tools for the automotive industry using Node, React, Python, MySQL, Postgres and Google Ad Manager.</p>'
-}
+};
